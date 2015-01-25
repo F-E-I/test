@@ -27099,3 +27099,101 @@ Caused by: java.lang.OutOfMemoryError: PermGen space
 2014-09-21 23:12:33,462 571973816@qtp-442275385-52 INFO  com.fdzcxy.tms.manager.service.impl.MenuServiceImpl - 未找到[parentId=2]的子菜单
 2014-09-21 23:13:12,427 831771277@qtp-442275385-56 INFO  com.fdzcxy.tms.manager.service.impl.MenuServiceImpl - 未找到[parentId=1]的子菜单
 2014-09-21 23:13:12,569 831771277@qtp-442275385-56 INFO  com.fdzcxy.tms.manager.service.impl.MenuServiceImpl - 未找到[parentId=2]的子菜单
+2015-01-25 20:40:24,863 main INFO  org.hibernate.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+2015-01-25 20:40:24,863 main INFO  org.hibernate.cfg.Environment - Hibernate 3.6.9.Final
+2015-01-25 20:40:24,863 main INFO  org.hibernate.cfg.Environment - hibernate.properties not found
+2015-01-25 20:40:24,863 main INFO  org.hibernate.cfg.Environment - Bytecode provider name : javassist
+2015-01-25 20:40:24,879 main INFO  org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+2015-01-25 20:40:24,942 main INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.User
+2015-01-25 20:40:24,974 main INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.User on table user
+2015-01-25 20:40:25,005 main INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.Menu
+2015-01-25 20:40:25,005 main INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.Menu on table menu
+2015-01-25 20:40:25,005 main INFO  org.hibernate.cfg.Configuration - Hibernate Validator not found: ignoring
+2015-01-25 20:40:25,020 main INFO  org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2015-01-25 20:40:25,020 main INFO  org.hibernate.connection.ConnectionProviderFactory - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2015-01-25 20:40:27,984 main INFO  org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQLDialect
+2015-01-25 20:40:28,000 main INFO  org.hibernate.cfg.SettingsFactory - Database ->
+       name : MySQL
+    version : 5.7.3-m13-log
+      major : 5
+      minor : 7
+2015-01-25 20:40:28,000 main INFO  org.hibernate.cfg.SettingsFactory - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.21 ( Revision: ${bzr.revision-id} )
+      major : 5
+      minor : 1
+2015-01-25 20:40:28,000 main INFO  org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2015-01-25 20:40:28,000 main INFO  org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2015-01-25 20:40:28,000 main INFO  org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+2015-01-25 20:40:28,000 main INFO  org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+2015-01-25 20:40:28,000 main INFO  org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+2015-01-25 20:40:28,000 main INFO  org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+2015-01-25 20:40:28,000 main INFO  org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+2015-01-25 20:40:28,000 main INFO  org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+2015-01-25 20:40:28,000 main INFO  org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+2015-01-25 20:40:28,000 main INFO  org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+2015-01-25 20:40:28,000 main INFO  org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+2015-01-25 20:40:28,000 main INFO  org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+2015-01-25 20:40:28,000 main INFO  org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+2015-01-25 20:40:28,016 main INFO  org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+2015-01-25 20:40:28,016 main INFO  org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2015-01-25 20:40:28,017 main INFO  org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+2015-01-25 20:40:28,017 main INFO  org.hibernate.cfg.SettingsFactory - Query language substitutions: {false=0, true=1}
+2015-01-25 20:40:28,017 main INFO  org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: disabled
+2015-01-25 20:40:28,017 main INFO  org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+2015-01-25 20:40:28,017 main INFO  org.hibernate.cfg.SettingsFactory - Query cache: disabled
+2015-01-25 20:40:28,017 main INFO  org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2015-01-25 20:40:28,017 main INFO  org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+2015-01-25 20:40:28,017 main INFO  org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+2015-01-25 20:40:28,017 main INFO  org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+2015-01-25 20:40:28,017 main INFO  org.hibernate.cfg.SettingsFactory - Statistics: disabled
+2015-01-25 20:40:28,017 main INFO  org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+2015-01-25 20:40:28,017 main INFO  org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+2015-01-25 20:40:28,017 main INFO  org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+2015-01-25 20:40:28,017 main INFO  org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2015-01-25 20:40:28,048 main INFO  org.hibernate.impl.SessionFactoryImpl - building session factory
+2015-01-25 20:40:28,063 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [clob] overrides previous : org.hibernate.type.ClobType@571217e5
+2015-01-25 20:40:28,063 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@571217e5
+2015-01-25 20:40:28,063 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@64dee80b
+2015-01-25 20:40:28,063 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@66545de9
+2015-01-25 20:40:28,063 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@2ce1a07b
+2015-01-25 20:40:28,063 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@10ef0242
+2015-01-25 20:40:28,063 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@3b7d43bd
+2015-01-25 20:40:28,063 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [blob] overrides previous : org.hibernate.type.BlobType@1cea4bce
+2015-01-25 20:40:28,063 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@1cea4bce
+2015-01-25 20:40:28,235 main INFO  org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+2015-01-25 20:40:28,531 main INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts-default.xml]
+2015-01-25 20:40:28,641 main INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts-plugin.xml]
+2015-01-25 20:40:28,656 main INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts.xml]
+2015-01-25 20:40:28,656 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (spring) for class com.opensymphony.xwork2.ObjectFactory
+2015-01-25 20:40:28,656 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for class com.opensymphony.xwork2.conversion.impl.XWorkConverter
+2015-01-25 20:40:28,656 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.TextProvider
+2015-01-25 20:40:28,656 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.ActionProxyFactory
+2015-01-25 20:40:28,656 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.conversion.ObjectTypeDeterminer
+2015-01-25 20:40:28,656 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.dispatcher.mapper.ActionMapper
+2015-01-25 20:40:28,656 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (jakarta) for interface org.apache.struts2.dispatcher.multipart.MultiPartRequest
+2015-01-25 20:40:28,656 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for class org.apache.struts2.views.freemarker.FreemarkerManager
+2015-01-25 20:40:28,672 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.components.UrlRenderer
+2015-01-25 20:40:28,672 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.validator.ActionValidatorManager
+2015-01-25 20:40:28,672 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.ValueStackFactory
+2015-01-25 20:40:28,672 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionProvider
+2015-01-25 20:40:28,672 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionContextFactory
+2015-01-25 20:40:28,672 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.PatternMatcher
+2015-01-25 20:40:28,672 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.dispatcher.StaticContentLoader
+2015-01-25 20:40:28,672 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.UnknownHandlerManager
+2015-01-25 20:40:28,719 main INFO  org.apache.struts2.spring.StrutsSpringObjectFactory - Initializing Struts-Spring integration...
+2015-01-25 20:40:28,719 main INFO  com.opensymphony.xwork2.spring.SpringObjectFactory - Setting autowire strategy to name
+2015-01-25 20:40:28,719 main INFO  org.apache.struts2.spring.StrutsSpringObjectFactory - ... initialized Struts-Spring integration successfully
+2015-01-25 20:41:53,885 58819575@qtp-2080599645-0 INFO  com.fdzcxy.tms.manager.service.impl.MenuServiceImpl - 未找到[parentId=3]的子菜单
+2015-01-25 20:41:54,566 58819575@qtp-2080599645-0 INFO  com.fdzcxy.tms.manager.service.impl.MenuServiceImpl - 未找到[parentId=1]的子菜单
+2015-01-25 20:41:55,591 58819575@qtp-2080599645-0 INFO  com.fdzcxy.tms.manager.service.impl.MenuServiceImpl - 未找到[parentId=2]的子菜单
+2015-01-25 20:41:57,206 58819575@qtp-2080599645-0 INFO  com.fdzcxy.tms.manager.service.impl.MenuServiceImpl - 未找到[parentId=3]的子菜单
+2015-01-25 20:41:57,854 58819575@qtp-2080599645-0 INFO  com.fdzcxy.tms.manager.service.impl.MenuServiceImpl - 未找到[parentId=1]的子菜单
+2015-01-25 20:41:58,352 58819575@qtp-2080599645-0 INFO  com.fdzcxy.tms.manager.service.impl.MenuServiceImpl - 未找到[parentId=2]的子菜单
+2015-01-25 20:43:36,331 1994755335@qtp-2080599645-7 INFO  com.fdzcxy.tms.manager.service.impl.MenuServiceImpl - 未找到[parentId=2]的子菜单
+2015-01-25 20:43:37,141 1994755335@qtp-2080599645-7 INFO  com.fdzcxy.tms.manager.service.impl.MenuServiceImpl - 未找到[parentId=1]的子菜单
+2015-01-25 20:43:37,747 1994755335@qtp-2080599645-7 INFO  com.fdzcxy.tms.manager.service.impl.MenuServiceImpl - 未找到[parentId=3]的子菜单
+2015-01-25 20:43:40,997 1994755335@qtp-2080599645-7 INFO  com.fdzcxy.tms.manager.service.impl.MenuServiceImpl - 未找到[parentId=2]的子菜单
+2015-01-25 20:43:41,902 1994755335@qtp-2080599645-7 INFO  com.fdzcxy.tms.manager.service.impl.MenuServiceImpl - 未找到[parentId=1]的子菜单
+2015-01-25 20:43:42,417 1994755335@qtp-2080599645-7 INFO  com.fdzcxy.tms.manager.service.impl.MenuServiceImpl - 未找到[parentId=3]的子菜单
+2015-01-25 20:43:47,004 1994755335@qtp-2080599645-7 INFO  com.fdzcxy.tms.manager.service.impl.MenuServiceImpl - 未找到[parentId=2]的子菜单
