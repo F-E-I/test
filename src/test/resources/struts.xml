@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC  
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"  
+"http://struts.apache.org/dtds/struts-2.0.dtd"> 
+
+<struts>
+	<!-- <constant name="struts.i18n.endoding" value="UTF-8"/>
+	<constant name="struts.action.extension" value="action,do"/>
+	<constant name="struts.configuration.xml.reload" value="true"/>
+	<constant name="struts.devMode" value="false"/>
+	<constant name="struts.serve.static.browserCache" value="false"/> 
+	<constant name="struts.objectFactory" value="spring"/>
+	<constant name="struts.enable.DynamicMethodInvocation" value="false"/> 
+	<constant name="struts.convention.package.locators" value="action" /> -->
+	<constant name="struts.convention.result.path" value="/" />
+	
+	<!-- <package name="default" namespace="/jsp" extends="struts-default">
+		<global-results>
+			<result name="sql">exception.jsp</result>
+		</global-results>
+		<global-exception-mappings>
+			<exception-mapping result="sql" exception="java.sql.SQLException"/>
+		</global-exception-mappings>
+		<action name="user" class="com.fdzcxy.tms.manager.action.UserAction">
+			<result name="success">welcome.jsp</result>
+			<result name="error">error.jsp</result>
+			<result name="logout_success" type="redirect">login.jsp</result>
+		</action>
+	</package> -->
+</struts>
