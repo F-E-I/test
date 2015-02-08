@@ -5,6 +5,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>教学管理系统后台</title>
 <link rel="stylesheet" type="text/css" href="${ctx}/resources/css/main.css">
+<link rel="stylesheet" type="text/css" href="${ctx}/resources/css/dialog.css">
 <script type="text/javascript" src="${ctx}/resources/js/jquery-1.11.1.min.js"></script>
 <script type="text/javascript" src="${ctx}/resources/js/jquery.transit.js"></script>
+<script type="text/javascript" src="${ctx}/resources/js/jquery.leanModal.min.js"></script>
+<script type="text/javascript" src="${ctx}/resources/js/jquery.placeholder.js"></script>
 </head>
