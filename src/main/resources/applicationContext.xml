@@ -50,6 +50,7 @@
 			<list>
 				<value>com.fdzcxy.tms.manager.model.User</value>
 				<value>com.fdzcxy.tms.manager.model.Menu</value>
+				<value>com.fdzcxy.tms.manager.model.Course</value>
 			</list>
 		</property>
 	</bean>
