@@ -8,9 +8,11 @@
 <link rel="stylesheet" type="text/css" href="${ctx}/resources/css/dialog.css">
 <script type="text/javascript" src="${ctx}/resources/js/jquery-1.11.1.min.js"></script>
 <script type="text/javascript" src="${ctx}/resources/js/jquery.transit.js"></script>
-<script type="text/javascript" src="${ctx}/resources/js/jquery.leanModal.min.js"></script>
 <script type="text/javascript" src="${ctx}/resources/js/jquery.placeholder.js"></script>
 <script type="text/javascript" src="${ctx}/resources/js/jquery.validationEngine.js"></script>
 <script type="text/javascript" src="${ctx}/resources/js/languages/jquery.validationEngine-zh_CN.js" charset="utf-8"></script>
 <link rel="stylesheet" type="text/css" href="${ctx}/resources/css/validationEngine.jquery.css">
+<script type="text/javascript" src="${ctx}/resources/js/jquery-ui.min.js"></script>
+<link rel="stylesheet" type="text/css" href="${ctx}/resources/css/jquery-ui.min.css">
+<script type="text/javascript" src="${ctx}/resources/js/dialog.js"></script>
 </head>

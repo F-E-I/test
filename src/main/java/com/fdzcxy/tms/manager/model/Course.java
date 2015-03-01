@@ -41,6 +41,12 @@ public class Course {
 	@Column(name = "DESCRIPTION")
 	private String description;
 
+	@Column(name = "PROFESSOR_ID")
+	private int professorId;
+
+	@Column(name = "PROFESSOR_NAME")
+	private String professorName;
+
 	public int getId() {
 		return id;
 	}
@@ -87,6 +93,22 @@ public class Course {
 
 	public void setDescription(String description) {
 		this.description = description;
+	}
+
+	public int getProfessorId() {
+		return professorId;
+	}
+
+	public void setProfessorId(int professorId) {
+		this.professorId = professorId;
+	}
+
+	public String getProfessorName() {
+		return professorName;
+	}
+
+	public void setProfessorName(String professorName) {
+		this.professorName = professorName;
 	}
 
 }

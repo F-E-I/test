@@ -6,6 +6,8 @@
  */
 package com.fdzcxy.tms.manager.action;
 
+import java.util.Map;
+
 import javax.annotation.Resource;
 
 import org.apache.commons.lang.StringUtils;
@@ -15,8 +17,11 @@ import org.apache.struts2.convention.annotation.ParentPackage;
 import org.apache.struts2.convention.annotation.Result;
 import org.apache.struts2.convention.annotation.Results;
 
+import com.fdzcxy.tms.manager.common.Const;
 import com.fdzcxy.tms.manager.model.Course;
+import com.fdzcxy.tms.manager.model.User;
 import com.fdzcxy.tms.manager.service.CourseService;
+import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 
 /**
@@ -49,6 +54,12 @@ public class CourseAction extends ActionSupport {
 		if (StringUtils.isEmpty(course.getCourseName())) {
 			throw new Exception("课程名称不可为空");
 		}
+
+		ActionContext ac = ActionContext.getContext();
+		Map<String, Object> session = ac.getSession();
+		User user = (User) session.get(Const.SESSION_USER);
+		course.setProfessorId(user.getId());
+		course.setProfessorName(user.getUserName());
 
 		courseService.addCourse(course);
 		return INDEX;
