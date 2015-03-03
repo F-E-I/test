@@ -22,4 +22,6 @@ public interface CourseDao {
 	public void addCourse(Course course);
 
 	public List<Course> findAll();
+
+	public Course findById(int id);
 }

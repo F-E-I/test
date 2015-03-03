@@ -33,7 +33,7 @@
 							</div>
 							<div class="course-actions fr">
 								<input type="button" class="btn btn-default" value="#">
-								<input type="button" class="btn btn-legacy" value="进入课程">
+								<a href="course?courseId=<s:property value="#course.id"/>" class="btn btn-legacy">进入课程</a>
 							</div>
 						</div>
 					</s:iterator>
@@ -43,7 +43,6 @@
 		</div>
 	</div>
 	<%@ include file="../footer.jsp" %>
-	<%-- <%@ include file="addCourse.jsp" %> --%>
 	<script type="text/javascript">
 		$(function(){
 			$('#addCourseBtn').click(function(){

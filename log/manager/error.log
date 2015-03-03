@@ -20849,3 +20849,8 @@ Caused by: java.net.SocketException: Software caused connection abort: recv fail
 	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:3014)
 	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3467)
 	... 100 more
+2015-03-03 20:36:36,155 1646451110@qtp-580844962-49 ERROR org.hibernate.util.JDBCExceptionReporter - Communications link failure
+
+The last packet successfully received from the server was 75,060,989 milliseconds ago.  The last packet sent successfully to the server was 1 milliseconds ago.
+2015-03-03 20:36:36,178 1646451110@qtp-580844962-49 ERROR org.hibernate.util.JDBCExceptionReporter - Already closed.
+2015-03-03 20:36:36,178 1646451110@qtp-580844962-49 ERROR org.hibernate.util.JDBCExceptionReporter - Already closed.

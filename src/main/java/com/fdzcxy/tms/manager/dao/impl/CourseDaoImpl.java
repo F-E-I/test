@@ -37,4 +37,14 @@ public class CourseDaoImpl extends CommonDaoSupport implements CourseDao {
 		}
 		return list;
 	}
+
+	@SuppressWarnings("unchecked")
+	public Course findById(int id) {
+		String hql = " from com.fdzcxy.tms.manager.model.Course c where c.id=?";
+		List<Course> list = this.find(hql, id);
+		if (list.size() <= 0) {
+			return null;
+		}
+		return list.get(0);
+	}
 }

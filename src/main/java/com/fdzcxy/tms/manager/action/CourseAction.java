@@ -35,17 +35,30 @@ import com.opensymphony.xwork2.ActionSupport;
 @Namespace("/jsp")
 @Action("course")
 @Results({ @Result(name = "json", type = "json"),
-		@Result(name = "index", location = "user", type = "redirect") })
+		@Result(name = "index", location = "user", type = "redirect"),
+		@Result(name = "courseIndex", location = "teacher/course.jsp") })
 public class CourseAction extends ActionSupport {
 
 	private static final long serialVersionUID = 1L;
 
 	private static final String INDEX = "index";
+	private static final String COURSE_INDEX = "courseIndex";
 
 	private Course course;
+	private String courseId;
 
 	@Resource(name = "courseService")
 	private CourseService courseService;
+
+	@Override
+	public String execute() throws Exception {
+		ActionContext ac = ActionContext.getContext();
+		Map<String, Object> session = ac.getSession();
+
+		Course course = courseService.findById(Integer.valueOf(courseId));
+		session.put(Const.SESSION_COURSE, course);
+		return COURSE_INDEX;
+	}
 
 	public String add() throws Exception {
 		if (course == null) {
@@ -71,5 +84,13 @@ public class CourseAction extends ActionSupport {
 
 	public void setCourse(Course course) {
 		this.course = course;
+	}
+
+	public String getCourseId() {
+		return courseId;
+	}
+
+	public void setCourseId(String courseId) {
+		this.courseId = courseId;
 	}
 }

@@ -32289,3 +32289,1310 @@ Caused by: java.net.SocketException: Software caused connection abort: recv fail
 2015-03-01 10:56:15,466 main INFO  org.apache.struts2.spring.StrutsSpringObjectFactory - Initializing Struts-Spring integration...
 2015-03-01 10:56:15,466 main INFO  com.opensymphony.xwork2.spring.SpringObjectFactory - Setting autowire strategy to name
 2015-03-01 10:56:15,466 main INFO  org.apache.struts2.spring.StrutsSpringObjectFactory - ... initialized Struts-Spring integration successfully
+2015-03-01 15:31:05,030 main INFO  org.hibernate.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+2015-03-01 15:31:05,038 main INFO  org.hibernate.cfg.Environment - Hibernate 3.6.9.Final
+2015-03-01 15:31:05,040 main INFO  org.hibernate.cfg.Environment - hibernate.properties not found
+2015-03-01 15:31:05,044 main INFO  org.hibernate.cfg.Environment - Bytecode provider name : javassist
+2015-03-01 15:31:05,048 main INFO  org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+2015-03-01 15:31:05,165 main INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.User
+2015-03-01 15:31:05,206 main INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.User on table user
+2015-03-01 15:31:05,244 main INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.Menu
+2015-03-01 15:31:05,245 main INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.Menu on table menu
+2015-03-01 15:31:05,246 main INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.Course
+2015-03-01 15:31:05,246 main INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.Course on table course
+2015-03-01 15:31:05,256 main INFO  org.hibernate.cfg.Configuration - Hibernate Validator not found: ignoring
+2015-03-01 15:31:05,268 main INFO  org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2015-03-01 15:31:05,272 main INFO  org.hibernate.connection.ConnectionProviderFactory - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2015-03-01 15:31:05,898 main INFO  org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQLDialect
+2015-03-01 15:31:05,907 main INFO  org.hibernate.cfg.SettingsFactory - Database ->
+       name : MySQL
+    version : 5.7.3-m13-log
+      major : 5
+      minor : 7
+2015-03-01 15:31:05,907 main INFO  org.hibernate.cfg.SettingsFactory - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.21 ( Revision: ${bzr.revision-id} )
+      major : 5
+      minor : 1
+2015-03-01 15:31:05,908 main INFO  org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2015-03-01 15:31:05,909 main INFO  org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2015-03-01 15:31:05,909 main INFO  org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+2015-03-01 15:31:05,909 main INFO  org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+2015-03-01 15:31:05,909 main INFO  org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+2015-03-01 15:31:05,909 main INFO  org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+2015-03-01 15:31:05,909 main INFO  org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+2015-03-01 15:31:05,909 main INFO  org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+2015-03-01 15:31:05,909 main INFO  org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+2015-03-01 15:31:05,910 main INFO  org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+2015-03-01 15:31:05,910 main INFO  org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+2015-03-01 15:31:05,910 main INFO  org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+2015-03-01 15:31:05,910 main INFO  org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+2015-03-01 15:31:05,910 main INFO  org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+2015-03-01 15:31:05,910 main INFO  org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2015-03-01 15:31:05,912 main INFO  org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+2015-03-01 15:31:05,912 main INFO  org.hibernate.cfg.SettingsFactory - Query language substitutions: {false=0, true=1}
+2015-03-01 15:31:05,912 main INFO  org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: disabled
+2015-03-01 15:31:05,912 main INFO  org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+2015-03-01 15:31:05,912 main INFO  org.hibernate.cfg.SettingsFactory - Query cache: disabled
+2015-03-01 15:31:05,912 main INFO  org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2015-03-01 15:31:05,913 main INFO  org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+2015-03-01 15:31:05,913 main INFO  org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+2015-03-01 15:31:05,915 main INFO  org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+2015-03-01 15:31:05,916 main INFO  org.hibernate.cfg.SettingsFactory - Statistics: disabled
+2015-03-01 15:31:05,916 main INFO  org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+2015-03-01 15:31:05,916 main INFO  org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+2015-03-01 15:31:05,916 main INFO  org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+2015-03-01 15:31:05,916 main INFO  org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2015-03-01 15:31:05,935 main INFO  org.hibernate.impl.SessionFactoryImpl - building session factory
+2015-03-01 15:31:05,942 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [clob] overrides previous : org.hibernate.type.ClobType@7f20557d
+2015-03-01 15:31:05,943 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@7f20557d
+2015-03-01 15:31:05,943 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@23ccc2bf
+2015-03-01 15:31:05,943 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@58059bf5
+2015-03-01 15:31:05,943 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@58421ef8
+2015-03-01 15:31:05,943 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@5cff590c
+2015-03-01 15:31:05,943 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [blob] overrides previous : org.hibernate.type.BlobType@2f5287
+2015-03-01 15:31:05,944 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@2f5287
+2015-03-01 15:31:05,944 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@22d31d29
+2015-03-01 15:31:06,067 main INFO  org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+2015-03-01 15:31:06,244 main INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts-default.xml]
+2015-03-01 15:31:06,332 main INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts-plugin.xml]
+2015-03-01 15:31:06,353 main INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts.xml]
+2015-03-01 15:31:06,355 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (spring) for class com.opensymphony.xwork2.ObjectFactory
+2015-03-01 15:31:06,355 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for class com.opensymphony.xwork2.conversion.impl.XWorkConverter
+2015-03-01 15:31:06,355 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.TextProvider
+2015-03-01 15:31:06,355 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.ActionProxyFactory
+2015-03-01 15:31:06,355 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.conversion.ObjectTypeDeterminer
+2015-03-01 15:31:06,355 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.dispatcher.mapper.ActionMapper
+2015-03-01 15:31:06,355 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (jakarta) for interface org.apache.struts2.dispatcher.multipart.MultiPartRequest
+2015-03-01 15:31:06,355 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for class org.apache.struts2.views.freemarker.FreemarkerManager
+2015-03-01 15:31:06,357 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.components.UrlRenderer
+2015-03-01 15:31:06,357 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.validator.ActionValidatorManager
+2015-03-01 15:31:06,357 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.ValueStackFactory
+2015-03-01 15:31:06,357 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionProvider
+2015-03-01 15:31:06,358 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionContextFactory
+2015-03-01 15:31:06,358 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.PatternMatcher
+2015-03-01 15:31:06,358 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.dispatcher.StaticContentLoader
+2015-03-01 15:31:06,358 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.UnknownHandlerManager
+2015-03-01 15:31:06,420 main INFO  org.apache.struts2.spring.StrutsSpringObjectFactory - Initializing Struts-Spring integration...
+2015-03-01 15:31:06,420 main INFO  com.opensymphony.xwork2.spring.SpringObjectFactory - Setting autowire strategy to name
+2015-03-01 15:31:06,420 main INFO  org.apache.struts2.spring.StrutsSpringObjectFactory - ... initialized Struts-Spring integration successfully
+2015-03-01 15:33:37,931 Timer-1 INFO  org.hibernate.impl.SessionFactoryImpl - closing
+2015-03-01 15:33:40,220 Timer-1 INFO  org.hibernate.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+2015-03-01 15:33:40,279 Timer-1 INFO  org.hibernate.cfg.Environment - Hibernate 3.6.9.Final
+2015-03-01 15:33:40,282 Timer-1 INFO  org.hibernate.cfg.Environment - hibernate.properties not found
+2015-03-01 15:33:40,289 Timer-1 INFO  org.hibernate.cfg.Environment - Bytecode provider name : javassist
+2015-03-01 15:33:40,292 Timer-1 INFO  org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+2015-03-01 15:33:40,551 Timer-1 INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.User
+2015-03-01 15:33:40,630 Timer-1 INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.User on table user
+2015-03-01 15:33:40,690 Timer-1 INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.Menu
+2015-03-01 15:33:40,691 Timer-1 INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.Menu on table menu
+2015-03-01 15:33:40,693 Timer-1 INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.Course
+2015-03-01 15:33:40,694 Timer-1 INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.Course on table course
+2015-03-01 15:33:40,708 Timer-1 INFO  org.hibernate.cfg.Configuration - Hibernate Validator not found: ignoring
+2015-03-01 15:33:40,721 Timer-1 INFO  org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2015-03-01 15:33:40,727 Timer-1 INFO  org.hibernate.connection.ConnectionProviderFactory - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2015-03-01 15:33:41,855 Timer-1 INFO  org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQLDialect
+2015-03-01 15:33:41,869 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Database ->
+       name : MySQL
+    version : 5.7.3-m13-log
+      major : 5
+      minor : 7
+2015-03-01 15:33:41,870 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.21 ( Revision: ${bzr.revision-id} )
+      major : 5
+      minor : 1
+2015-03-01 15:33:41,871 Timer-1 INFO  org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2015-03-01 15:33:41,873 Timer-1 INFO  org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2015-03-01 15:33:41,873 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+2015-03-01 15:33:41,873 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+2015-03-01 15:33:41,873 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+2015-03-01 15:33:41,873 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+2015-03-01 15:33:41,874 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+2015-03-01 15:33:41,875 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+2015-03-01 15:33:41,875 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+2015-03-01 15:33:41,876 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+2015-03-01 15:33:41,876 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+2015-03-01 15:33:41,876 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+2015-03-01 15:33:41,876 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+2015-03-01 15:33:41,877 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+2015-03-01 15:33:41,877 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2015-03-01 15:33:41,878 Timer-1 INFO  org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+2015-03-01 15:33:41,879 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Query language substitutions: {false=0, true=1}
+2015-03-01 15:33:41,879 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: disabled
+2015-03-01 15:33:41,879 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+2015-03-01 15:33:41,879 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Query cache: disabled
+2015-03-01 15:33:41,880 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2015-03-01 15:33:41,881 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+2015-03-01 15:33:41,881 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+2015-03-01 15:33:41,885 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+2015-03-01 15:33:41,886 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Statistics: disabled
+2015-03-01 15:33:41,886 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+2015-03-01 15:33:41,886 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+2015-03-01 15:33:41,886 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+2015-03-01 15:33:41,886 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2015-03-01 15:33:41,908 Timer-1 INFO  org.hibernate.impl.SessionFactoryImpl - building session factory
+2015-03-01 15:33:41,914 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@58b7b8f3
+2015-03-01 15:33:41,914 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@5cf8706
+2015-03-01 15:33:41,915 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@7ba99de4
+2015-03-01 15:33:41,915 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [clob] overrides previous : org.hibernate.type.ClobType@3cbd2329
+2015-03-01 15:33:41,915 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@3cbd2329
+2015-03-01 15:33:41,915 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@254f77e6
+2015-03-01 15:33:41,915 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [blob] overrides previous : org.hibernate.type.BlobType@448b02d
+2015-03-01 15:33:41,915 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@448b02d
+2015-03-01 15:33:41,916 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@40265c8d
+2015-03-01 15:33:42,146 Timer-1 INFO  org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+2015-03-01 15:33:42,493 Timer-1 INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts-default.xml]
+2015-03-01 15:33:42,614 Timer-1 INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts-plugin.xml]
+2015-03-01 15:33:42,646 Timer-1 INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts.xml]
+2015-03-01 15:33:42,650 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (spring) for class com.opensymphony.xwork2.ObjectFactory
+2015-03-01 15:33:42,650 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for class com.opensymphony.xwork2.conversion.impl.XWorkConverter
+2015-03-01 15:33:42,650 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.TextProvider
+2015-03-01 15:33:42,650 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.ActionProxyFactory
+2015-03-01 15:33:42,650 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.conversion.ObjectTypeDeterminer
+2015-03-01 15:33:42,651 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.dispatcher.mapper.ActionMapper
+2015-03-01 15:33:42,651 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (jakarta) for interface org.apache.struts2.dispatcher.multipart.MultiPartRequest
+2015-03-01 15:33:42,651 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for class org.apache.struts2.views.freemarker.FreemarkerManager
+2015-03-01 15:33:42,654 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.components.UrlRenderer
+2015-03-01 15:33:42,654 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.validator.ActionValidatorManager
+2015-03-01 15:33:42,654 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.ValueStackFactory
+2015-03-01 15:33:42,654 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionProvider
+2015-03-01 15:33:42,655 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionContextFactory
+2015-03-01 15:33:42,655 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.PatternMatcher
+2015-03-01 15:33:42,655 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.dispatcher.StaticContentLoader
+2015-03-01 15:33:42,655 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.UnknownHandlerManager
+2015-03-01 15:33:42,764 Timer-1 INFO  org.apache.struts2.spring.StrutsSpringObjectFactory - Initializing Struts-Spring integration...
+2015-03-01 15:33:42,765 Timer-1 INFO  com.opensymphony.xwork2.spring.SpringObjectFactory - Setting autowire strategy to name
+2015-03-01 15:33:42,765 Timer-1 INFO  org.apache.struts2.spring.StrutsSpringObjectFactory - ... initialized Struts-Spring integration successfully
+2015-03-01 15:36:56,726 main INFO  org.hibernate.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+2015-03-01 15:36:56,733 main INFO  org.hibernate.cfg.Environment - Hibernate 3.6.9.Final
+2015-03-01 15:36:56,735 main INFO  org.hibernate.cfg.Environment - hibernate.properties not found
+2015-03-01 15:36:56,737 main INFO  org.hibernate.cfg.Environment - Bytecode provider name : javassist
+2015-03-01 15:36:56,740 main INFO  org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+2015-03-01 15:36:56,854 main INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.User
+2015-03-01 15:36:56,890 main INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.User on table user
+2015-03-01 15:36:56,941 main INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.Menu
+2015-03-01 15:36:56,941 main INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.Menu on table menu
+2015-03-01 15:36:56,946 main INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.Course
+2015-03-01 15:36:56,946 main INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.Course on table course
+2015-03-01 15:36:56,961 main INFO  org.hibernate.cfg.Configuration - Hibernate Validator not found: ignoring
+2015-03-01 15:36:56,973 main INFO  org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2015-03-01 15:36:56,978 main INFO  org.hibernate.connection.ConnectionProviderFactory - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2015-03-01 15:36:57,360 main INFO  org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQLDialect
+2015-03-01 15:36:57,376 main INFO  org.hibernate.cfg.SettingsFactory - Database ->
+       name : MySQL
+    version : 5.7.3-m13-log
+      major : 5
+      minor : 7
+2015-03-01 15:36:57,376 main INFO  org.hibernate.cfg.SettingsFactory - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.21 ( Revision: ${bzr.revision-id} )
+      major : 5
+      minor : 1
+2015-03-01 15:36:57,377 main INFO  org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2015-03-01 15:36:57,379 main INFO  org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2015-03-01 15:36:57,379 main INFO  org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+2015-03-01 15:36:57,379 main INFO  org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+2015-03-01 15:36:57,379 main INFO  org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+2015-03-01 15:36:57,379 main INFO  org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+2015-03-01 15:36:57,380 main INFO  org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+2015-03-01 15:36:57,380 main INFO  org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+2015-03-01 15:36:57,380 main INFO  org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+2015-03-01 15:36:57,381 main INFO  org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+2015-03-01 15:36:57,382 main INFO  org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+2015-03-01 15:36:57,382 main INFO  org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+2015-03-01 15:36:57,382 main INFO  org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+2015-03-01 15:36:57,382 main INFO  org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+2015-03-01 15:36:57,382 main INFO  org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2015-03-01 15:36:57,385 main INFO  org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+2015-03-01 15:36:57,385 main INFO  org.hibernate.cfg.SettingsFactory - Query language substitutions: {false=0, true=1}
+2015-03-01 15:36:57,385 main INFO  org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: disabled
+2015-03-01 15:36:57,386 main INFO  org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+2015-03-01 15:36:57,386 main INFO  org.hibernate.cfg.SettingsFactory - Query cache: disabled
+2015-03-01 15:36:57,386 main INFO  org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2015-03-01 15:36:57,387 main INFO  org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+2015-03-01 15:36:57,388 main INFO  org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+2015-03-01 15:36:57,392 main INFO  org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+2015-03-01 15:36:57,393 main INFO  org.hibernate.cfg.SettingsFactory - Statistics: disabled
+2015-03-01 15:36:57,393 main INFO  org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+2015-03-01 15:36:57,394 main INFO  org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+2015-03-01 15:36:57,394 main INFO  org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+2015-03-01 15:36:57,394 main INFO  org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2015-03-01 15:36:57,423 main INFO  org.hibernate.impl.SessionFactoryImpl - building session factory
+2015-03-01 15:36:57,431 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@2e9397a3
+2015-03-01 15:36:57,431 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@5bc86638
+2015-03-01 15:36:57,432 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@41af159b
+2015-03-01 15:36:57,432 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@4db394cd
+2015-03-01 15:36:57,432 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@48ee4695
+2015-03-01 15:36:57,432 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [clob] overrides previous : org.hibernate.type.ClobType@135c059b
+2015-03-01 15:36:57,432 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@135c059b
+2015-03-01 15:36:57,433 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [blob] overrides previous : org.hibernate.type.BlobType@7e740d0a
+2015-03-01 15:36:57,433 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@7e740d0a
+2015-03-01 15:36:57,676 main INFO  org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+2015-03-01 15:36:57,807 Timer-1 INFO  org.hibernate.impl.SessionFactoryImpl - closing
+2015-03-01 15:36:57,939 main INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts-default.xml]
+2015-03-01 15:36:58,060 main INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts-plugin.xml]
+2015-03-01 15:36:58,084 main INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts.xml]
+2015-03-01 15:36:58,087 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (spring) for class com.opensymphony.xwork2.ObjectFactory
+2015-03-01 15:36:58,088 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for class com.opensymphony.xwork2.conversion.impl.XWorkConverter
+2015-03-01 15:36:58,088 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.TextProvider
+2015-03-01 15:36:58,088 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.ActionProxyFactory
+2015-03-01 15:36:58,088 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.conversion.ObjectTypeDeterminer
+2015-03-01 15:36:58,088 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.dispatcher.mapper.ActionMapper
+2015-03-01 15:36:58,088 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (jakarta) for interface org.apache.struts2.dispatcher.multipart.MultiPartRequest
+2015-03-01 15:36:58,088 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for class org.apache.struts2.views.freemarker.FreemarkerManager
+2015-03-01 15:36:58,091 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.components.UrlRenderer
+2015-03-01 15:36:58,091 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.validator.ActionValidatorManager
+2015-03-01 15:36:58,091 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.ValueStackFactory
+2015-03-01 15:36:58,092 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionProvider
+2015-03-01 15:36:58,092 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionContextFactory
+2015-03-01 15:36:58,092 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.PatternMatcher
+2015-03-01 15:36:58,092 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.dispatcher.StaticContentLoader
+2015-03-01 15:36:58,092 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.UnknownHandlerManager
+2015-03-01 15:36:58,177 main INFO  org.apache.struts2.spring.StrutsSpringObjectFactory - Initializing Struts-Spring integration...
+2015-03-01 15:36:58,178 main INFO  com.opensymphony.xwork2.spring.SpringObjectFactory - Setting autowire strategy to name
+2015-03-01 15:36:58,178 main INFO  org.apache.struts2.spring.StrutsSpringObjectFactory - ... initialized Struts-Spring integration successfully
+2015-03-01 15:37:00,152 Timer-1 INFO  org.hibernate.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+2015-03-01 15:37:00,160 Timer-1 INFO  org.hibernate.cfg.Environment - Hibernate 3.6.9.Final
+2015-03-01 15:37:00,162 Timer-1 INFO  org.hibernate.cfg.Environment - hibernate.properties not found
+2015-03-01 15:37:00,216 Timer-1 INFO  org.hibernate.cfg.Environment - Bytecode provider name : javassist
+2015-03-01 15:37:00,219 Timer-1 INFO  org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+2015-03-01 15:37:00,325 Timer-1 INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.User
+2015-03-01 15:37:00,369 Timer-1 INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.User on table user
+2015-03-01 15:37:00,406 Timer-1 INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.Menu
+2015-03-01 15:37:00,407 Timer-1 INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.Menu on table menu
+2015-03-01 15:37:00,409 Timer-1 INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.Course
+2015-03-01 15:37:00,409 Timer-1 INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.Course on table course
+2015-03-01 15:37:00,419 Timer-1 INFO  org.hibernate.cfg.Configuration - Hibernate Validator not found: ignoring
+2015-03-01 15:37:00,431 Timer-1 INFO  org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2015-03-01 15:37:00,437 Timer-1 INFO  org.hibernate.connection.ConnectionProviderFactory - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2015-03-01 15:37:00,843 Timer-1 INFO  org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQLDialect
+2015-03-01 15:37:00,850 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Database ->
+       name : MySQL
+    version : 5.7.3-m13-log
+      major : 5
+      minor : 7
+2015-03-01 15:37:00,851 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.21 ( Revision: ${bzr.revision-id} )
+      major : 5
+      minor : 1
+2015-03-01 15:37:00,851 Timer-1 INFO  org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2015-03-01 15:37:00,852 Timer-1 INFO  org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2015-03-01 15:37:00,852 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+2015-03-01 15:37:00,852 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+2015-03-01 15:37:00,852 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+2015-03-01 15:37:00,853 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+2015-03-01 15:37:00,853 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+2015-03-01 15:37:00,853 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+2015-03-01 15:37:00,853 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+2015-03-01 15:37:00,854 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+2015-03-01 15:37:00,854 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+2015-03-01 15:37:00,854 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+2015-03-01 15:37:00,854 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+2015-03-01 15:37:00,854 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+2015-03-01 15:37:00,854 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2015-03-01 15:37:00,855 Timer-1 INFO  org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+2015-03-01 15:37:00,855 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Query language substitutions: {false=0, true=1}
+2015-03-01 15:37:00,855 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: disabled
+2015-03-01 15:37:00,855 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+2015-03-01 15:37:00,856 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Query cache: disabled
+2015-03-01 15:37:00,856 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2015-03-01 15:37:00,856 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+2015-03-01 15:37:00,856 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+2015-03-01 15:37:00,858 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+2015-03-01 15:37:00,859 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Statistics: disabled
+2015-03-01 15:37:00,859 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+2015-03-01 15:37:00,859 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+2015-03-01 15:37:00,859 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+2015-03-01 15:37:00,859 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2015-03-01 15:37:00,871 Timer-1 INFO  org.hibernate.impl.SessionFactoryImpl - building session factory
+2015-03-01 15:37:00,874 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [clob] overrides previous : org.hibernate.type.ClobType@73182712
+2015-03-01 15:37:00,874 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@73182712
+2015-03-01 15:37:00,874 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@36ad49c6
+2015-03-01 15:37:00,875 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@2ac68235
+2015-03-01 15:37:00,875 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [blob] overrides previous : org.hibernate.type.BlobType@4e8e7b83
+2015-03-01 15:37:00,875 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@4e8e7b83
+2015-03-01 15:37:00,875 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@6c4efdbf
+2015-03-01 15:37:00,875 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@35f53e26
+2015-03-01 15:37:00,875 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@77c34c76
+2015-03-01 15:37:00,984 Timer-1 INFO  org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+2015-03-01 15:37:01,101 Timer-1 INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts-default.xml]
+2015-03-01 15:37:01,173 Timer-1 INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts-plugin.xml]
+2015-03-01 15:37:01,188 Timer-1 INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts.xml]
+2015-03-01 15:37:01,190 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (spring) for class com.opensymphony.xwork2.ObjectFactory
+2015-03-01 15:37:01,190 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for class com.opensymphony.xwork2.conversion.impl.XWorkConverter
+2015-03-01 15:37:01,190 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.TextProvider
+2015-03-01 15:37:01,190 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.ActionProxyFactory
+2015-03-01 15:37:01,190 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.conversion.ObjectTypeDeterminer
+2015-03-01 15:37:01,190 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.dispatcher.mapper.ActionMapper
+2015-03-01 15:37:01,190 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (jakarta) for interface org.apache.struts2.dispatcher.multipart.MultiPartRequest
+2015-03-01 15:37:01,191 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for class org.apache.struts2.views.freemarker.FreemarkerManager
+2015-03-01 15:37:01,192 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.components.UrlRenderer
+2015-03-01 15:37:01,192 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.validator.ActionValidatorManager
+2015-03-01 15:37:01,192 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.ValueStackFactory
+2015-03-01 15:37:01,193 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionProvider
+2015-03-01 15:37:01,193 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionContextFactory
+2015-03-01 15:37:01,193 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.PatternMatcher
+2015-03-01 15:37:01,193 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.dispatcher.StaticContentLoader
+2015-03-01 15:37:01,193 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.UnknownHandlerManager
+2015-03-01 15:37:01,264 Timer-1 INFO  org.apache.struts2.spring.StrutsSpringObjectFactory - Initializing Struts-Spring integration...
+2015-03-01 15:37:01,264 Timer-1 INFO  com.opensymphony.xwork2.spring.SpringObjectFactory - Setting autowire strategy to name
+2015-03-01 15:37:01,264 Timer-1 INFO  org.apache.struts2.spring.StrutsSpringObjectFactory - ... initialized Struts-Spring integration successfully
+2015-03-01 15:37:37,810 Timer-1 INFO  org.hibernate.impl.SessionFactoryImpl - closing
+2015-03-01 15:37:38,623 Timer-1 INFO  org.hibernate.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+2015-03-01 15:37:38,629 Timer-1 INFO  org.hibernate.cfg.Environment - Hibernate 3.6.9.Final
+2015-03-01 15:37:38,631 Timer-1 INFO  org.hibernate.cfg.Environment - hibernate.properties not found
+2015-03-01 15:37:38,634 Timer-1 INFO  org.hibernate.cfg.Environment - Bytecode provider name : javassist
+2015-03-01 15:37:38,636 Timer-1 INFO  org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+2015-03-01 15:37:38,707 Timer-1 INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.User
+2015-03-01 15:37:38,742 Timer-1 INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.User on table user
+2015-03-01 15:37:38,781 Timer-1 INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.Menu
+2015-03-01 15:37:38,782 Timer-1 INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.Menu on table menu
+2015-03-01 15:37:38,784 Timer-1 INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.Course
+2015-03-01 15:37:38,784 Timer-1 INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.Course on table course
+2015-03-01 15:37:38,801 Timer-1 INFO  org.hibernate.cfg.Configuration - Hibernate Validator not found: ignoring
+2015-03-01 15:37:38,810 Timer-1 INFO  org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2015-03-01 15:37:38,814 Timer-1 INFO  org.hibernate.connection.ConnectionProviderFactory - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2015-03-01 15:37:39,081 Timer-1 INFO  org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQLDialect
+2015-03-01 15:37:39,094 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Database ->
+       name : MySQL
+    version : 5.7.3-m13-log
+      major : 5
+      minor : 7
+2015-03-01 15:37:39,094 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.21 ( Revision: ${bzr.revision-id} )
+      major : 5
+      minor : 1
+2015-03-01 15:37:39,095 Timer-1 INFO  org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2015-03-01 15:37:39,096 Timer-1 INFO  org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2015-03-01 15:37:39,096 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+2015-03-01 15:37:39,096 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+2015-03-01 15:37:39,097 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+2015-03-01 15:37:39,097 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+2015-03-01 15:37:39,097 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+2015-03-01 15:37:39,097 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+2015-03-01 15:37:39,097 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+2015-03-01 15:37:39,098 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+2015-03-01 15:37:39,098 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+2015-03-01 15:37:39,098 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+2015-03-01 15:37:39,098 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+2015-03-01 15:37:39,099 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+2015-03-01 15:37:39,099 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2015-03-01 15:37:39,100 Timer-1 INFO  org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+2015-03-01 15:37:39,100 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Query language substitutions: {false=0, true=1}
+2015-03-01 15:37:39,100 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: disabled
+2015-03-01 15:37:39,101 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+2015-03-01 15:37:39,101 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Query cache: disabled
+2015-03-01 15:37:39,101 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2015-03-01 15:37:39,102 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+2015-03-01 15:37:39,102 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+2015-03-01 15:37:39,104 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+2015-03-01 15:37:39,105 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Statistics: disabled
+2015-03-01 15:37:39,105 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+2015-03-01 15:37:39,105 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+2015-03-01 15:37:39,105 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+2015-03-01 15:37:39,106 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2015-03-01 15:37:48,269 main INFO  org.hibernate.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+2015-03-01 15:37:48,276 main INFO  org.hibernate.cfg.Environment - Hibernate 3.6.9.Final
+2015-03-01 15:37:48,278 main INFO  org.hibernate.cfg.Environment - hibernate.properties not found
+2015-03-01 15:37:48,281 main INFO  org.hibernate.cfg.Environment - Bytecode provider name : javassist
+2015-03-01 15:37:48,284 main INFO  org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+2015-03-01 15:37:48,381 main INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.User
+2015-03-01 15:37:48,420 main INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.User on table user
+2015-03-01 15:37:48,453 main INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.Menu
+2015-03-01 15:37:48,453 main INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.Menu on table menu
+2015-03-01 15:37:48,458 main INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.Course
+2015-03-01 15:37:48,458 main INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.Course on table course
+2015-03-01 15:37:48,469 main INFO  org.hibernate.cfg.Configuration - Hibernate Validator not found: ignoring
+2015-03-01 15:37:48,480 main INFO  org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2015-03-01 15:37:48,486 main INFO  org.hibernate.connection.ConnectionProviderFactory - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2015-03-01 15:37:48,798 main INFO  org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQLDialect
+2015-03-01 15:37:48,809 main INFO  org.hibernate.cfg.SettingsFactory - Database ->
+       name : MySQL
+    version : 5.7.3-m13-log
+      major : 5
+      minor : 7
+2015-03-01 15:37:48,810 main INFO  org.hibernate.cfg.SettingsFactory - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.21 ( Revision: ${bzr.revision-id} )
+      major : 5
+      minor : 1
+2015-03-01 15:37:48,811 main INFO  org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2015-03-01 15:37:48,812 main INFO  org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2015-03-01 15:37:48,812 main INFO  org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+2015-03-01 15:37:48,812 main INFO  org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+2015-03-01 15:37:48,812 main INFO  org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+2015-03-01 15:37:48,812 main INFO  org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+2015-03-01 15:37:48,813 main INFO  org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+2015-03-01 15:37:48,813 main INFO  org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+2015-03-01 15:37:48,813 main INFO  org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+2015-03-01 15:37:48,814 main INFO  org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+2015-03-01 15:37:48,814 main INFO  org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+2015-03-01 15:37:48,814 main INFO  org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+2015-03-01 15:37:48,814 main INFO  org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+2015-03-01 15:37:48,814 main INFO  org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+2015-03-01 15:37:48,814 main INFO  org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2015-03-01 15:37:48,816 main INFO  org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+2015-03-01 15:37:48,817 main INFO  org.hibernate.cfg.SettingsFactory - Query language substitutions: {false=0, true=1}
+2015-03-01 15:37:48,817 main INFO  org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: disabled
+2015-03-01 15:37:48,817 main INFO  org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+2015-03-01 15:37:48,817 main INFO  org.hibernate.cfg.SettingsFactory - Query cache: disabled
+2015-03-01 15:37:48,817 main INFO  org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2015-03-01 15:37:48,818 main INFO  org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+2015-03-01 15:37:48,819 main INFO  org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+2015-03-01 15:37:48,824 main INFO  org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+2015-03-01 15:37:48,825 main INFO  org.hibernate.cfg.SettingsFactory - Statistics: disabled
+2015-03-01 15:37:48,825 main INFO  org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+2015-03-01 15:37:48,825 main INFO  org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+2015-03-01 15:37:48,825 main INFO  org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+2015-03-01 15:37:48,825 main INFO  org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2015-03-01 15:37:48,849 main INFO  org.hibernate.impl.SessionFactoryImpl - building session factory
+2015-03-01 15:37:48,856 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@79287762
+2015-03-01 15:37:48,857 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [clob] overrides previous : org.hibernate.type.ClobType@4fb60112
+2015-03-01 15:37:48,857 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@4fb60112
+2015-03-01 15:37:48,857 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [blob] overrides previous : org.hibernate.type.BlobType@36006da0
+2015-03-01 15:37:48,857 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@36006da0
+2015-03-01 15:37:48,857 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@561d3f12
+2015-03-01 15:37:48,857 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@1a17e2e9
+2015-03-01 15:37:48,857 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@16323c61
+2015-03-01 15:37:48,858 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@3c1a0fa9
+2015-03-01 15:37:49,014 main INFO  org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+2015-03-01 15:37:49,204 main INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts-default.xml]
+2015-03-01 15:37:49,277 main INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts-plugin.xml]
+2015-03-01 15:37:49,298 main INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts.xml]
+2015-03-01 15:37:49,301 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (spring) for class com.opensymphony.xwork2.ObjectFactory
+2015-03-01 15:37:49,302 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for class com.opensymphony.xwork2.conversion.impl.XWorkConverter
+2015-03-01 15:37:49,302 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.TextProvider
+2015-03-01 15:37:49,302 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.ActionProxyFactory
+2015-03-01 15:37:49,302 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.conversion.ObjectTypeDeterminer
+2015-03-01 15:37:49,302 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.dispatcher.mapper.ActionMapper
+2015-03-01 15:37:49,302 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (jakarta) for interface org.apache.struts2.dispatcher.multipart.MultiPartRequest
+2015-03-01 15:37:49,302 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for class org.apache.struts2.views.freemarker.FreemarkerManager
+2015-03-01 15:37:49,305 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.components.UrlRenderer
+2015-03-01 15:37:49,305 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.validator.ActionValidatorManager
+2015-03-01 15:37:49,306 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.ValueStackFactory
+2015-03-01 15:37:49,306 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionProvider
+2015-03-01 15:37:49,306 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionContextFactory
+2015-03-01 15:37:49,306 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.PatternMatcher
+2015-03-01 15:37:49,306 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.dispatcher.StaticContentLoader
+2015-03-01 15:37:49,306 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.UnknownHandlerManager
+2015-03-01 15:37:49,374 main INFO  org.apache.struts2.spring.StrutsSpringObjectFactory - Initializing Struts-Spring integration...
+2015-03-01 15:37:49,374 main INFO  com.opensymphony.xwork2.spring.SpringObjectFactory - Setting autowire strategy to name
+2015-03-01 15:37:49,374 main INFO  org.apache.struts2.spring.StrutsSpringObjectFactory - ... initialized Struts-Spring integration successfully
+2015-03-01 15:40:07,658 main INFO  org.hibernate.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+2015-03-01 15:40:07,662 main INFO  org.hibernate.cfg.Environment - Hibernate 3.6.9.Final
+2015-03-01 15:40:07,664 main INFO  org.hibernate.cfg.Environment - hibernate.properties not found
+2015-03-01 15:40:07,666 main INFO  org.hibernate.cfg.Environment - Bytecode provider name : javassist
+2015-03-01 15:40:07,668 main INFO  org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+2015-03-01 15:40:07,755 main INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.User
+2015-03-01 15:40:07,795 main INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.User on table user
+2015-03-01 15:40:07,833 main INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.Menu
+2015-03-01 15:40:07,833 main INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.Menu on table menu
+2015-03-01 15:40:07,835 main INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.Course
+2015-03-01 15:40:07,836 main INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.Course on table course
+2015-03-01 15:40:07,844 main INFO  org.hibernate.cfg.Configuration - Hibernate Validator not found: ignoring
+2015-03-01 15:40:07,850 main INFO  org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2015-03-01 15:40:07,854 main INFO  org.hibernate.connection.ConnectionProviderFactory - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2015-03-01 15:40:08,219 main INFO  org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQLDialect
+2015-03-01 15:40:08,230 main INFO  org.hibernate.cfg.SettingsFactory - Database ->
+       name : MySQL
+    version : 5.7.3-m13-log
+      major : 5
+      minor : 7
+2015-03-01 15:40:08,230 main INFO  org.hibernate.cfg.SettingsFactory - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.21 ( Revision: ${bzr.revision-id} )
+      major : 5
+      minor : 1
+2015-03-01 15:40:08,231 main INFO  org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2015-03-01 15:40:08,233 main INFO  org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2015-03-01 15:40:08,233 main INFO  org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+2015-03-01 15:40:08,233 main INFO  org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+2015-03-01 15:40:08,233 main INFO  org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+2015-03-01 15:40:08,233 main INFO  org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+2015-03-01 15:40:08,234 main INFO  org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+2015-03-01 15:40:08,234 main INFO  org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+2015-03-01 15:40:08,234 main INFO  org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+2015-03-01 15:40:08,235 main INFO  org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+2015-03-01 15:40:08,235 main INFO  org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+2015-03-01 15:40:08,235 main INFO  org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+2015-03-01 15:40:08,235 main INFO  org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+2015-03-01 15:40:08,235 main INFO  org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+2015-03-01 15:40:08,236 main INFO  org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2015-03-01 15:40:08,238 main INFO  org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+2015-03-01 15:40:08,239 main INFO  org.hibernate.cfg.SettingsFactory - Query language substitutions: {false=0, true=1}
+2015-03-01 15:40:08,239 main INFO  org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: disabled
+2015-03-01 15:40:08,239 main INFO  org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+2015-03-01 15:40:08,239 main INFO  org.hibernate.cfg.SettingsFactory - Query cache: disabled
+2015-03-01 15:40:08,240 main INFO  org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2015-03-01 15:40:08,241 main INFO  org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+2015-03-01 15:40:08,241 main INFO  org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+2015-03-01 15:40:08,246 main INFO  org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+2015-03-01 15:40:08,247 main INFO  org.hibernate.cfg.SettingsFactory - Statistics: disabled
+2015-03-01 15:40:08,247 main INFO  org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+2015-03-01 15:40:08,247 main INFO  org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+2015-03-01 15:40:08,247 main INFO  org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+2015-03-01 15:40:08,248 main INFO  org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2015-03-01 15:40:08,272 main INFO  org.hibernate.impl.SessionFactoryImpl - building session factory
+2015-03-01 15:40:08,278 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@2b42e14d
+2015-03-01 15:40:08,278 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@33d59c6b
+2015-03-01 15:40:08,279 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [blob] overrides previous : org.hibernate.type.BlobType@d104f63
+2015-03-01 15:40:08,279 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@d104f63
+2015-03-01 15:40:08,279 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [clob] overrides previous : org.hibernate.type.ClobType@29cbf348
+2015-03-01 15:40:08,279 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@29cbf348
+2015-03-01 15:40:08,279 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@cd11168
+2015-03-01 15:40:08,279 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@71cdc96a
+2015-03-01 15:40:08,279 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@7d628884
+2015-03-01 15:40:08,434 main INFO  org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+2015-03-01 15:40:08,612 main INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts-default.xml]
+2015-03-01 15:40:08,693 main INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts-plugin.xml]
+2015-03-01 15:40:08,709 main INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts.xml]
+2015-03-01 15:40:08,711 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (spring) for class com.opensymphony.xwork2.ObjectFactory
+2015-03-01 15:40:08,711 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for class com.opensymphony.xwork2.conversion.impl.XWorkConverter
+2015-03-01 15:40:08,711 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.TextProvider
+2015-03-01 15:40:08,711 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.ActionProxyFactory
+2015-03-01 15:40:08,711 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.conversion.ObjectTypeDeterminer
+2015-03-01 15:40:08,711 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.dispatcher.mapper.ActionMapper
+2015-03-01 15:40:08,711 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (jakarta) for interface org.apache.struts2.dispatcher.multipart.MultiPartRequest
+2015-03-01 15:40:08,711 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for class org.apache.struts2.views.freemarker.FreemarkerManager
+2015-03-01 15:40:08,713 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.components.UrlRenderer
+2015-03-01 15:40:08,713 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.validator.ActionValidatorManager
+2015-03-01 15:40:08,713 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.ValueStackFactory
+2015-03-01 15:40:08,713 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionProvider
+2015-03-01 15:40:08,713 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionContextFactory
+2015-03-01 15:40:08,713 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.PatternMatcher
+2015-03-01 15:40:08,713 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.dispatcher.StaticContentLoader
+2015-03-01 15:40:08,713 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.UnknownHandlerManager
+2015-03-01 15:40:08,774 main INFO  org.apache.struts2.spring.StrutsSpringObjectFactory - Initializing Struts-Spring integration...
+2015-03-01 15:40:08,774 main INFO  com.opensymphony.xwork2.spring.SpringObjectFactory - Setting autowire strategy to name
+2015-03-01 15:40:08,774 main INFO  org.apache.struts2.spring.StrutsSpringObjectFactory - ... initialized Struts-Spring integration successfully
+2015-03-01 15:41:34,290 main INFO  org.hibernate.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+2015-03-01 15:41:34,296 main INFO  org.hibernate.cfg.Environment - Hibernate 3.6.9.Final
+2015-03-01 15:41:34,298 main INFO  org.hibernate.cfg.Environment - hibernate.properties not found
+2015-03-01 15:41:34,300 main INFO  org.hibernate.cfg.Environment - Bytecode provider name : javassist
+2015-03-01 15:41:34,302 main INFO  org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+2015-03-01 15:41:34,392 main INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.User
+2015-03-01 15:41:34,428 main INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.User on table user
+2015-03-01 15:41:34,470 main INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.Menu
+2015-03-01 15:41:34,470 main INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.Menu on table menu
+2015-03-01 15:41:34,472 main INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.Course
+2015-03-01 15:41:34,472 main INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.Course on table course
+2015-03-01 15:41:34,480 main INFO  org.hibernate.cfg.Configuration - Hibernate Validator not found: ignoring
+2015-03-01 15:41:34,487 main INFO  org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2015-03-01 15:41:34,492 main INFO  org.hibernate.connection.ConnectionProviderFactory - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2015-03-01 15:41:34,826 main INFO  org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQLDialect
+2015-03-01 15:41:34,835 main INFO  org.hibernate.cfg.SettingsFactory - Database ->
+       name : MySQL
+    version : 5.7.3-m13-log
+      major : 5
+      minor : 7
+2015-03-01 15:41:34,835 main INFO  org.hibernate.cfg.SettingsFactory - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.21 ( Revision: ${bzr.revision-id} )
+      major : 5
+      minor : 1
+2015-03-01 15:41:34,836 main INFO  org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2015-03-01 15:41:34,837 main INFO  org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2015-03-01 15:41:34,837 main INFO  org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+2015-03-01 15:41:34,837 main INFO  org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+2015-03-01 15:41:34,838 main INFO  org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+2015-03-01 15:41:34,838 main INFO  org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+2015-03-01 15:41:34,838 main INFO  org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+2015-03-01 15:41:34,838 main INFO  org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+2015-03-01 15:41:34,838 main INFO  org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+2015-03-01 15:41:34,839 main INFO  org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+2015-03-01 15:41:34,839 main INFO  org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+2015-03-01 15:41:34,839 main INFO  org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+2015-03-01 15:41:34,839 main INFO  org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+2015-03-01 15:41:34,839 main INFO  org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+2015-03-01 15:41:34,839 main INFO  org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2015-03-01 15:41:34,841 main INFO  org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+2015-03-01 15:41:34,841 main INFO  org.hibernate.cfg.SettingsFactory - Query language substitutions: {false=0, true=1}
+2015-03-01 15:41:34,841 main INFO  org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: disabled
+2015-03-01 15:41:34,842 main INFO  org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+2015-03-01 15:41:34,842 main INFO  org.hibernate.cfg.SettingsFactory - Query cache: disabled
+2015-03-01 15:41:34,842 main INFO  org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2015-03-01 15:41:34,843 main INFO  org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+2015-03-01 15:41:34,843 main INFO  org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+2015-03-01 15:41:34,847 main INFO  org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+2015-03-01 15:41:34,848 main INFO  org.hibernate.cfg.SettingsFactory - Statistics: disabled
+2015-03-01 15:41:34,848 main INFO  org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+2015-03-01 15:41:34,848 main INFO  org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+2015-03-01 15:41:34,848 main INFO  org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+2015-03-01 15:41:34,848 main INFO  org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2015-03-01 15:41:34,874 main INFO  org.hibernate.impl.SessionFactoryImpl - building session factory
+2015-03-01 15:41:34,879 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [blob] overrides previous : org.hibernate.type.BlobType@41626a6
+2015-03-01 15:41:34,880 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@41626a6
+2015-03-01 15:41:34,880 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@4a435e62
+2015-03-01 15:41:34,880 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [clob] overrides previous : org.hibernate.type.ClobType@ce99a05
+2015-03-01 15:41:34,880 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@ce99a05
+2015-03-01 15:41:34,880 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@3c7ec4e2
+2015-03-01 15:41:34,880 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@26aff075
+2015-03-01 15:41:34,880 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@68d3a52a
+2015-03-01 15:41:34,881 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@1f009e2a
+2015-03-01 15:41:35,058 main INFO  org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+2015-03-01 15:41:35,236 main INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts-default.xml]
+2015-03-01 15:41:35,314 main INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts-plugin.xml]
+2015-03-01 15:41:35,335 main INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts.xml]
+2015-03-01 15:41:35,337 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (spring) for class com.opensymphony.xwork2.ObjectFactory
+2015-03-01 15:41:35,338 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for class com.opensymphony.xwork2.conversion.impl.XWorkConverter
+2015-03-01 15:41:35,338 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.TextProvider
+2015-03-01 15:41:35,338 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.ActionProxyFactory
+2015-03-01 15:41:35,338 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.conversion.ObjectTypeDeterminer
+2015-03-01 15:41:35,338 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.dispatcher.mapper.ActionMapper
+2015-03-01 15:41:35,338 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (jakarta) for interface org.apache.struts2.dispatcher.multipart.MultiPartRequest
+2015-03-01 15:41:35,338 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for class org.apache.struts2.views.freemarker.FreemarkerManager
+2015-03-01 15:41:35,340 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.components.UrlRenderer
+2015-03-01 15:41:35,340 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.validator.ActionValidatorManager
+2015-03-01 15:41:35,340 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.ValueStackFactory
+2015-03-01 15:41:35,340 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionProvider
+2015-03-01 15:41:35,340 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionContextFactory
+2015-03-01 15:41:35,340 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.PatternMatcher
+2015-03-01 15:41:35,341 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.dispatcher.StaticContentLoader
+2015-03-01 15:41:35,341 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.UnknownHandlerManager
+2015-03-01 15:41:35,409 main INFO  org.apache.struts2.spring.StrutsSpringObjectFactory - Initializing Struts-Spring integration...
+2015-03-01 15:41:35,409 main INFO  com.opensymphony.xwork2.spring.SpringObjectFactory - Setting autowire strategy to name
+2015-03-01 15:41:35,409 main INFO  org.apache.struts2.spring.StrutsSpringObjectFactory - ... initialized Struts-Spring integration successfully
+2015-03-01 15:42:16,764 Timer-1 INFO  org.hibernate.impl.SessionFactoryImpl - closing
+2015-03-01 15:42:19,592 Timer-1 INFO  org.hibernate.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+2015-03-01 15:42:19,603 Timer-1 INFO  org.hibernate.cfg.Environment - Hibernate 3.6.9.Final
+2015-03-01 15:42:19,606 Timer-1 INFO  org.hibernate.cfg.Environment - hibernate.properties not found
+2015-03-01 15:42:19,610 Timer-1 INFO  org.hibernate.cfg.Environment - Bytecode provider name : javassist
+2015-03-01 15:42:19,612 Timer-1 INFO  org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+2015-03-01 15:42:19,856 Timer-1 INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.User
+2015-03-01 15:42:19,899 Timer-1 INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.User on table user
+2015-03-01 15:42:19,946 Timer-1 INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.Menu
+2015-03-01 15:42:19,947 Timer-1 INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.Menu on table menu
+2015-03-01 15:42:19,949 Timer-1 INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.Course
+2015-03-01 15:42:19,949 Timer-1 INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.Course on table course
+2015-03-01 15:42:19,972 Timer-1 INFO  org.hibernate.cfg.Configuration - Hibernate Validator not found: ignoring
+2015-03-01 15:42:19,984 Timer-1 INFO  org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2015-03-01 15:42:19,990 Timer-1 INFO  org.hibernate.connection.ConnectionProviderFactory - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2015-03-01 15:42:20,418 Timer-1 INFO  org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQLDialect
+2015-03-01 15:42:20,430 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Database ->
+       name : MySQL
+    version : 5.7.3-m13-log
+      major : 5
+      minor : 7
+2015-03-01 15:42:20,430 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.21 ( Revision: ${bzr.revision-id} )
+      major : 5
+      minor : 1
+2015-03-01 15:42:20,431 Timer-1 INFO  org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2015-03-01 15:42:20,432 Timer-1 INFO  org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2015-03-01 15:42:20,432 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+2015-03-01 15:42:20,432 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+2015-03-01 15:42:20,432 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+2015-03-01 15:42:20,432 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+2015-03-01 15:42:20,432 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+2015-03-01 15:42:20,432 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+2015-03-01 15:42:20,433 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+2015-03-01 15:42:20,433 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+2015-03-01 15:42:20,433 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+2015-03-01 15:42:20,433 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+2015-03-01 15:42:20,433 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+2015-03-01 15:42:20,433 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+2015-03-01 15:42:20,433 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2015-03-01 15:42:20,434 Timer-1 INFO  org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+2015-03-01 15:42:20,434 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Query language substitutions: {false=0, true=1}
+2015-03-01 15:42:20,434 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: disabled
+2015-03-01 15:42:20,434 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+2015-03-01 15:42:20,434 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Query cache: disabled
+2015-03-01 15:42:20,434 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2015-03-01 15:42:20,435 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+2015-03-01 15:42:20,435 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+2015-03-01 15:42:20,437 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+2015-03-01 15:42:20,438 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Statistics: disabled
+2015-03-01 15:42:20,438 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+2015-03-01 15:42:20,438 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+2015-03-01 15:42:20,438 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+2015-03-01 15:42:20,438 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2015-03-01 15:42:20,450 Timer-1 INFO  org.hibernate.impl.SessionFactoryImpl - building session factory
+2015-03-01 15:42:20,454 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@574ba5bc
+2015-03-01 15:42:20,454 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@276e066a
+2015-03-01 15:42:20,454 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [clob] overrides previous : org.hibernate.type.ClobType@28672d5f
+2015-03-01 15:42:20,454 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@28672d5f
+2015-03-01 15:42:20,454 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [blob] overrides previous : org.hibernate.type.BlobType@dd3ccb2
+2015-03-01 15:42:20,454 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@dd3ccb2
+2015-03-01 15:42:20,454 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@4c23c135
+2015-03-01 15:42:20,454 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@3f61a5a0
+2015-03-01 15:42:20,454 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@23c0cbe2
+2015-03-01 15:42:20,574 Timer-1 INFO  org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+2015-03-01 15:42:20,736 Timer-1 INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts-default.xml]
+2015-03-01 15:42:20,803 Timer-1 INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts-plugin.xml]
+2015-03-01 15:42:20,817 Timer-1 INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts.xml]
+2015-03-01 15:42:20,819 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (spring) for class com.opensymphony.xwork2.ObjectFactory
+2015-03-01 15:42:20,820 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for class com.opensymphony.xwork2.conversion.impl.XWorkConverter
+2015-03-01 15:42:20,820 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.TextProvider
+2015-03-01 15:42:20,820 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.ActionProxyFactory
+2015-03-01 15:42:20,820 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.conversion.ObjectTypeDeterminer
+2015-03-01 15:42:20,820 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.dispatcher.mapper.ActionMapper
+2015-03-01 15:42:20,820 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (jakarta) for interface org.apache.struts2.dispatcher.multipart.MultiPartRequest
+2015-03-01 15:42:20,820 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for class org.apache.struts2.views.freemarker.FreemarkerManager
+2015-03-01 15:42:20,822 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.components.UrlRenderer
+2015-03-01 15:42:20,822 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.validator.ActionValidatorManager
+2015-03-01 15:42:20,822 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.ValueStackFactory
+2015-03-01 15:42:20,822 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionProvider
+2015-03-01 15:42:20,822 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionContextFactory
+2015-03-01 15:42:20,822 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.PatternMatcher
+2015-03-01 15:42:20,822 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.dispatcher.StaticContentLoader
+2015-03-01 15:42:20,823 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.UnknownHandlerManager
+2015-03-01 15:42:20,868 Timer-1 INFO  org.apache.struts2.spring.StrutsSpringObjectFactory - Initializing Struts-Spring integration...
+2015-03-01 15:42:20,868 Timer-1 INFO  com.opensymphony.xwork2.spring.SpringObjectFactory - Setting autowire strategy to name
+2015-03-01 15:42:20,868 Timer-1 INFO  org.apache.struts2.spring.StrutsSpringObjectFactory - ... initialized Struts-Spring integration successfully
+2015-03-01 15:42:26,765 Timer-1 INFO  org.hibernate.impl.SessionFactoryImpl - closing
+2015-03-01 15:42:27,799 Timer-1 INFO  org.hibernate.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+2015-03-01 15:42:27,804 Timer-1 INFO  org.hibernate.cfg.Environment - Hibernate 3.6.9.Final
+2015-03-01 15:42:27,806 Timer-1 INFO  org.hibernate.cfg.Environment - hibernate.properties not found
+2015-03-01 15:42:27,811 Timer-1 INFO  org.hibernate.cfg.Environment - Bytecode provider name : javassist
+2015-03-01 15:42:27,813 Timer-1 INFO  org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+2015-03-01 15:42:27,899 Timer-1 INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.User
+2015-03-01 15:42:27,938 Timer-1 INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.User on table user
+2015-03-01 15:42:27,980 Timer-1 INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.Menu
+2015-03-01 15:42:27,980 Timer-1 INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.Menu on table menu
+2015-03-01 15:42:27,982 Timer-1 INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.Course
+2015-03-01 15:42:27,983 Timer-1 INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.Course on table course
+2015-03-01 15:42:27,995 Timer-1 INFO  org.hibernate.cfg.Configuration - Hibernate Validator not found: ignoring
+2015-03-01 15:42:28,011 Timer-1 INFO  org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2015-03-01 15:42:28,017 Timer-1 INFO  org.hibernate.connection.ConnectionProviderFactory - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2015-03-01 15:42:28,490 Timer-1 INFO  org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQLDialect
+2015-03-01 15:42:28,501 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Database ->
+       name : MySQL
+    version : 5.7.3-m13-log
+      major : 5
+      minor : 7
+2015-03-01 15:42:28,501 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.21 ( Revision: ${bzr.revision-id} )
+      major : 5
+      minor : 1
+2015-03-01 15:42:28,502 Timer-1 INFO  org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2015-03-01 15:42:28,503 Timer-1 INFO  org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2015-03-01 15:42:28,503 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+2015-03-01 15:42:28,503 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+2015-03-01 15:42:28,503 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+2015-03-01 15:42:28,503 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+2015-03-01 15:42:28,503 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+2015-03-01 15:42:28,504 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+2015-03-01 15:42:28,504 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+2015-03-01 15:42:28,504 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+2015-03-01 15:42:28,504 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+2015-03-01 15:42:28,505 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+2015-03-01 15:42:28,505 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+2015-03-01 15:42:28,505 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+2015-03-01 15:42:28,505 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2015-03-01 15:42:28,506 Timer-1 INFO  org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+2015-03-01 15:42:28,506 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Query language substitutions: {false=0, true=1}
+2015-03-01 15:42:28,506 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: disabled
+2015-03-01 15:42:28,507 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+2015-03-01 15:42:28,507 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Query cache: disabled
+2015-03-01 15:42:28,507 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2015-03-01 15:42:28,508 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+2015-03-01 15:42:28,508 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+2015-03-01 15:42:28,511 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+2015-03-01 15:42:28,511 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Statistics: disabled
+2015-03-01 15:42:28,512 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+2015-03-01 15:42:28,512 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+2015-03-01 15:42:28,512 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+2015-03-01 15:42:28,512 Timer-1 INFO  org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2015-03-01 15:42:28,528 Timer-1 INFO  org.hibernate.impl.SessionFactoryImpl - building session factory
+2015-03-01 15:42:28,531 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@4274fcdc
+2015-03-01 15:42:28,532 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@e84f19a
+2015-03-01 15:42:28,532 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@3a11bce8
+2015-03-01 15:42:28,532 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [clob] overrides previous : org.hibernate.type.ClobType@62894120
+2015-03-01 15:42:28,532 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@62894120
+2015-03-01 15:42:28,532 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@2112ce6a
+2015-03-01 15:42:28,532 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [blob] overrides previous : org.hibernate.type.BlobType@59ada21c
+2015-03-01 15:42:28,532 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@59ada21c
+2015-03-01 15:42:28,532 Timer-1 INFO  org.hibernate.type.BasicTypeRegistry - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@166e0a43
+2015-03-01 15:42:28,680 Timer-1 INFO  org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+2015-03-01 15:42:28,828 Timer-1 INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts-default.xml]
+2015-03-01 15:42:28,926 Timer-1 INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts-plugin.xml]
+2015-03-01 15:42:28,951 Timer-1 INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts.xml]
+2015-03-01 15:42:28,953 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (spring) for class com.opensymphony.xwork2.ObjectFactory
+2015-03-01 15:42:28,953 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for class com.opensymphony.xwork2.conversion.impl.XWorkConverter
+2015-03-01 15:42:28,953 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.TextProvider
+2015-03-01 15:42:28,953 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.ActionProxyFactory
+2015-03-01 15:42:28,953 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.conversion.ObjectTypeDeterminer
+2015-03-01 15:42:28,954 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.dispatcher.mapper.ActionMapper
+2015-03-01 15:42:28,954 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (jakarta) for interface org.apache.struts2.dispatcher.multipart.MultiPartRequest
+2015-03-01 15:42:28,954 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for class org.apache.struts2.views.freemarker.FreemarkerManager
+2015-03-01 15:42:28,956 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.components.UrlRenderer
+2015-03-01 15:42:28,956 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.validator.ActionValidatorManager
+2015-03-01 15:42:28,956 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.ValueStackFactory
+2015-03-01 15:42:28,957 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionProvider
+2015-03-01 15:42:28,957 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionContextFactory
+2015-03-01 15:42:28,957 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.PatternMatcher
+2015-03-01 15:42:28,957 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.dispatcher.StaticContentLoader
+2015-03-01 15:42:28,957 Timer-1 INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.UnknownHandlerManager
+2015-03-01 15:42:29,030 Timer-1 INFO  org.apache.struts2.spring.StrutsSpringObjectFactory - Initializing Struts-Spring integration...
+2015-03-01 15:42:29,030 Timer-1 INFO  com.opensymphony.xwork2.spring.SpringObjectFactory - Setting autowire strategy to name
+2015-03-01 15:42:29,030 Timer-1 INFO  org.apache.struts2.spring.StrutsSpringObjectFactory - ... initialized Struts-Spring integration successfully
+2015-03-01 15:42:56,761 Timer-1 INFO  org.hibernate.impl.SessionFactoryImpl - closing
+2015-03-01 15:43:10,317 main INFO  org.hibernate.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+2015-03-01 15:43:10,322 main INFO  org.hibernate.cfg.Environment - Hibernate 3.6.9.Final
+2015-03-01 15:43:10,324 main INFO  org.hibernate.cfg.Environment - hibernate.properties not found
+2015-03-01 15:43:10,327 main INFO  org.hibernate.cfg.Environment - Bytecode provider name : javassist
+2015-03-01 15:43:10,329 main INFO  org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+2015-03-01 15:43:10,421 main INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.User
+2015-03-01 15:43:10,458 main INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.User on table user
+2015-03-01 15:43:10,490 main INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.Menu
+2015-03-01 15:43:10,490 main INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.Menu on table menu
+2015-03-01 15:43:10,493 main INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.Course
+2015-03-01 15:43:10,493 main INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.Course on table course
+2015-03-01 15:43:10,503 main INFO  org.hibernate.cfg.Configuration - Hibernate Validator not found: ignoring
+2015-03-01 15:43:10,511 main INFO  org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2015-03-01 15:43:10,515 main INFO  org.hibernate.connection.ConnectionProviderFactory - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2015-03-01 15:43:10,909 main INFO  org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQLDialect
+2015-03-01 15:43:10,921 main INFO  org.hibernate.cfg.SettingsFactory - Database ->
+       name : MySQL
+    version : 5.7.3-m13-log
+      major : 5
+      minor : 7
+2015-03-01 15:43:10,922 main INFO  org.hibernate.cfg.SettingsFactory - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.21 ( Revision: ${bzr.revision-id} )
+      major : 5
+      minor : 1
+2015-03-01 15:43:10,923 main INFO  org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2015-03-01 15:43:10,924 main INFO  org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2015-03-01 15:43:10,924 main INFO  org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+2015-03-01 15:43:10,924 main INFO  org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+2015-03-01 15:43:10,925 main INFO  org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+2015-03-01 15:43:10,925 main INFO  org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+2015-03-01 15:43:10,925 main INFO  org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+2015-03-01 15:43:10,926 main INFO  org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+2015-03-01 15:43:10,926 main INFO  org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+2015-03-01 15:43:10,926 main INFO  org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+2015-03-01 15:43:10,927 main INFO  org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+2015-03-01 15:43:10,927 main INFO  org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+2015-03-01 15:43:10,927 main INFO  org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+2015-03-01 15:43:10,927 main INFO  org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+2015-03-01 15:43:10,927 main INFO  org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2015-03-01 15:43:10,929 main INFO  org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+2015-03-01 15:43:10,929 main INFO  org.hibernate.cfg.SettingsFactory - Query language substitutions: {false=0, true=1}
+2015-03-01 15:43:10,929 main INFO  org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: disabled
+2015-03-01 15:43:10,929 main INFO  org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+2015-03-01 15:43:10,930 main INFO  org.hibernate.cfg.SettingsFactory - Query cache: disabled
+2015-03-01 15:43:10,930 main INFO  org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2015-03-01 15:43:10,931 main INFO  org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+2015-03-01 15:43:10,931 main INFO  org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+2015-03-01 15:43:10,935 main INFO  org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+2015-03-01 15:43:10,935 main INFO  org.hibernate.cfg.SettingsFactory - Statistics: disabled
+2015-03-01 15:43:10,935 main INFO  org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+2015-03-01 15:43:10,936 main INFO  org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+2015-03-01 15:43:10,936 main INFO  org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+2015-03-01 15:43:10,936 main INFO  org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2015-03-01 15:43:10,959 main INFO  org.hibernate.impl.SessionFactoryImpl - building session factory
+2015-03-01 15:43:10,966 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@78a7023c
+2015-03-01 15:43:10,966 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@1c83ef06
+2015-03-01 15:43:10,966 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [blob] overrides previous : org.hibernate.type.BlobType@19c1818a
+2015-03-01 15:43:10,966 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@19c1818a
+2015-03-01 15:43:10,966 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [clob] overrides previous : org.hibernate.type.ClobType@6f1f983b
+2015-03-01 15:43:10,966 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@6f1f983b
+2015-03-01 15:43:10,967 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@343827c
+2015-03-01 15:43:10,967 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@452b9c90
+2015-03-01 15:43:10,967 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@3233d56a
+2015-03-01 15:43:11,119 main INFO  org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+2015-03-01 15:43:11,328 main INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts-default.xml]
+2015-03-01 15:43:11,401 main INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts-plugin.xml]
+2015-03-01 15:43:11,418 main INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts.xml]
+2015-03-01 15:43:11,420 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (spring) for class com.opensymphony.xwork2.ObjectFactory
+2015-03-01 15:43:11,420 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for class com.opensymphony.xwork2.conversion.impl.XWorkConverter
+2015-03-01 15:43:11,420 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.TextProvider
+2015-03-01 15:43:11,420 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.ActionProxyFactory
+2015-03-01 15:43:11,421 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.conversion.ObjectTypeDeterminer
+2015-03-01 15:43:11,421 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.dispatcher.mapper.ActionMapper
+2015-03-01 15:43:11,421 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (jakarta) for interface org.apache.struts2.dispatcher.multipart.MultiPartRequest
+2015-03-01 15:43:11,421 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for class org.apache.struts2.views.freemarker.FreemarkerManager
+2015-03-01 15:43:11,423 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.components.UrlRenderer
+2015-03-01 15:43:11,423 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.validator.ActionValidatorManager
+2015-03-01 15:43:11,423 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.ValueStackFactory
+2015-03-01 15:43:11,423 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionProvider
+2015-03-01 15:43:11,423 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionContextFactory
+2015-03-01 15:43:11,423 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.PatternMatcher
+2015-03-01 15:43:11,423 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.dispatcher.StaticContentLoader
+2015-03-01 15:43:11,423 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.UnknownHandlerManager
+2015-03-01 15:43:11,485 main INFO  org.apache.struts2.spring.StrutsSpringObjectFactory - Initializing Struts-Spring integration...
+2015-03-01 15:43:11,485 main INFO  com.opensymphony.xwork2.spring.SpringObjectFactory - Setting autowire strategy to name
+2015-03-01 15:43:11,485 main INFO  org.apache.struts2.spring.StrutsSpringObjectFactory - ... initialized Struts-Spring integration successfully
+2015-03-01 23:20:07,946 main INFO  org.hibernate.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+2015-03-01 23:20:07,987 main INFO  org.hibernate.cfg.Environment - Hibernate 3.6.9.Final
+2015-03-01 23:20:07,990 main INFO  org.hibernate.cfg.Environment - hibernate.properties not found
+2015-03-01 23:20:07,994 main INFO  org.hibernate.cfg.Environment - Bytecode provider name : javassist
+2015-03-01 23:20:07,997 main INFO  org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+2015-03-01 23:20:08,116 main INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.User
+2015-03-01 23:20:08,157 main INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.User on table user
+2015-03-01 23:20:08,196 main INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.Menu
+2015-03-01 23:20:08,196 main INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.Menu on table menu
+2015-03-01 23:20:08,199 main INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.Course
+2015-03-01 23:20:08,199 main INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.Course on table course
+2015-03-01 23:20:08,211 main INFO  org.hibernate.cfg.Configuration - Hibernate Validator not found: ignoring
+2015-03-01 23:20:08,221 main INFO  org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2015-03-01 23:20:08,225 main INFO  org.hibernate.connection.ConnectionProviderFactory - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2015-03-01 23:20:09,638 main INFO  org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQLDialect
+2015-03-01 23:20:09,647 main INFO  org.hibernate.cfg.SettingsFactory - Database ->
+       name : MySQL
+    version : 5.7.3-m13-log
+      major : 5
+      minor : 7
+2015-03-01 23:20:09,647 main INFO  org.hibernate.cfg.SettingsFactory - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.21 ( Revision: ${bzr.revision-id} )
+      major : 5
+      minor : 1
+2015-03-01 23:20:09,648 main INFO  org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2015-03-01 23:20:09,649 main INFO  org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2015-03-01 23:20:09,649 main INFO  org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+2015-03-01 23:20:09,649 main INFO  org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+2015-03-01 23:20:09,649 main INFO  org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+2015-03-01 23:20:09,649 main INFO  org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+2015-03-01 23:20:09,650 main INFO  org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+2015-03-01 23:20:09,650 main INFO  org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+2015-03-01 23:20:09,650 main INFO  org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+2015-03-01 23:20:09,650 main INFO  org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+2015-03-01 23:20:09,650 main INFO  org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+2015-03-01 23:20:09,650 main INFO  org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+2015-03-01 23:20:09,650 main INFO  org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+2015-03-01 23:20:09,651 main INFO  org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+2015-03-01 23:20:09,651 main INFO  org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2015-03-01 23:20:09,652 main INFO  org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+2015-03-01 23:20:09,652 main INFO  org.hibernate.cfg.SettingsFactory - Query language substitutions: {false=0, true=1}
+2015-03-01 23:20:09,652 main INFO  org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: disabled
+2015-03-01 23:20:09,652 main INFO  org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+2015-03-01 23:20:09,652 main INFO  org.hibernate.cfg.SettingsFactory - Query cache: disabled
+2015-03-01 23:20:09,652 main INFO  org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2015-03-01 23:20:09,653 main INFO  org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+2015-03-01 23:20:09,653 main INFO  org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+2015-03-01 23:20:09,656 main INFO  org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+2015-03-01 23:20:09,656 main INFO  org.hibernate.cfg.SettingsFactory - Statistics: disabled
+2015-03-01 23:20:09,656 main INFO  org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+2015-03-01 23:20:09,656 main INFO  org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+2015-03-01 23:20:09,657 main INFO  org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+2015-03-01 23:20:09,657 main INFO  org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2015-03-01 23:20:09,672 main INFO  org.hibernate.impl.SessionFactoryImpl - building session factory
+2015-03-01 23:20:09,677 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@4db394cd
+2015-03-01 23:20:09,677 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@48ee4695
+2015-03-01 23:20:09,677 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@135c059b
+2015-03-01 23:20:09,677 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@7e740d0a
+2015-03-01 23:20:09,677 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [clob] overrides previous : org.hibernate.type.ClobType@75044c61
+2015-03-01 23:20:09,677 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@75044c61
+2015-03-01 23:20:09,677 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [blob] overrides previous : org.hibernate.type.BlobType@6d32b04b
+2015-03-01 23:20:09,677 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@6d32b04b
+2015-03-01 23:20:09,677 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@1ad443ef
+2015-03-01 23:20:09,804 main INFO  org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+2015-03-01 23:20:10,013 main INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts-default.xml]
+2015-03-01 23:20:10,088 main INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts-plugin.xml]
+2015-03-01 23:20:10,112 main INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts.xml]
+2015-03-01 23:20:10,114 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (spring) for class com.opensymphony.xwork2.ObjectFactory
+2015-03-01 23:20:10,114 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for class com.opensymphony.xwork2.conversion.impl.XWorkConverter
+2015-03-01 23:20:10,114 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.TextProvider
+2015-03-01 23:20:10,114 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.ActionProxyFactory
+2015-03-01 23:20:10,114 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.conversion.ObjectTypeDeterminer
+2015-03-01 23:20:10,114 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.dispatcher.mapper.ActionMapper
+2015-03-01 23:20:10,114 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (jakarta) for interface org.apache.struts2.dispatcher.multipart.MultiPartRequest
+2015-03-01 23:20:10,114 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for class org.apache.struts2.views.freemarker.FreemarkerManager
+2015-03-01 23:20:10,116 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.components.UrlRenderer
+2015-03-01 23:20:10,116 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.validator.ActionValidatorManager
+2015-03-01 23:20:10,116 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.ValueStackFactory
+2015-03-01 23:20:10,116 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionProvider
+2015-03-01 23:20:10,116 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionContextFactory
+2015-03-01 23:20:10,116 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.PatternMatcher
+2015-03-01 23:20:10,116 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.dispatcher.StaticContentLoader
+2015-03-01 23:20:10,116 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.UnknownHandlerManager
+2015-03-01 23:20:10,175 main INFO  org.apache.struts2.spring.StrutsSpringObjectFactory - Initializing Struts-Spring integration...
+2015-03-01 23:20:10,175 main INFO  com.opensymphony.xwork2.spring.SpringObjectFactory - Setting autowire strategy to name
+2015-03-01 23:20:10,175 main INFO  org.apache.struts2.spring.StrutsSpringObjectFactory - ... initialized Struts-Spring integration successfully
+2015-03-02 22:17:41,492 main INFO  org.hibernate.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+2015-03-02 22:17:41,523 main INFO  org.hibernate.cfg.Environment - Hibernate 3.6.9.Final
+2015-03-02 22:17:41,523 main INFO  org.hibernate.cfg.Environment - hibernate.properties not found
+2015-03-02 22:17:41,523 main INFO  org.hibernate.cfg.Environment - Bytecode provider name : javassist
+2015-03-02 22:17:41,523 main INFO  org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+2015-03-02 22:17:41,633 main INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.User
+2015-03-02 22:17:41,664 main INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.User on table user
+2015-03-02 22:17:41,711 main INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.Menu
+2015-03-02 22:17:41,711 main INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.Menu on table menu
+2015-03-02 22:17:41,711 main INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.Course
+2015-03-02 22:17:41,711 main INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.Course on table course
+2015-03-02 22:17:41,727 main INFO  org.hibernate.cfg.Configuration - Hibernate Validator not found: ignoring
+2015-03-02 22:17:41,742 main INFO  org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2015-03-02 22:17:41,742 main INFO  org.hibernate.connection.ConnectionProviderFactory - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2015-03-02 22:17:42,163 main INFO  org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQLDialect
+2015-03-02 22:17:42,179 main INFO  org.hibernate.cfg.SettingsFactory - Database ->
+       name : MySQL
+    version : 5.7.3-m13-log
+      major : 5
+      minor : 7
+2015-03-02 22:17:42,179 main INFO  org.hibernate.cfg.SettingsFactory - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.21 ( Revision: ${bzr.revision-id} )
+      major : 5
+      minor : 1
+2015-03-02 22:17:42,179 main INFO  org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2015-03-02 22:17:42,179 main INFO  org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2015-03-02 22:17:42,179 main INFO  org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+2015-03-02 22:17:42,179 main INFO  org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+2015-03-02 22:17:42,179 main INFO  org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+2015-03-02 22:17:42,179 main INFO  org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+2015-03-02 22:17:42,179 main INFO  org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+2015-03-02 22:17:42,179 main INFO  org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+2015-03-02 22:17:42,179 main INFO  org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+2015-03-02 22:17:42,179 main INFO  org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+2015-03-02 22:17:42,179 main INFO  org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+2015-03-02 22:17:42,179 main INFO  org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+2015-03-02 22:17:42,179 main INFO  org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+2015-03-02 22:17:42,179 main INFO  org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+2015-03-02 22:17:42,179 main INFO  org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2015-03-02 22:17:42,195 main INFO  org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+2015-03-02 22:17:42,195 main INFO  org.hibernate.cfg.SettingsFactory - Query language substitutions: {false=0, true=1}
+2015-03-02 22:17:42,195 main INFO  org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: disabled
+2015-03-02 22:17:42,195 main INFO  org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+2015-03-02 22:17:42,195 main INFO  org.hibernate.cfg.SettingsFactory - Query cache: disabled
+2015-03-02 22:17:42,195 main INFO  org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2015-03-02 22:17:42,195 main INFO  org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+2015-03-02 22:17:42,195 main INFO  org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+2015-03-02 22:17:42,195 main INFO  org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+2015-03-02 22:17:42,195 main INFO  org.hibernate.cfg.SettingsFactory - Statistics: disabled
+2015-03-02 22:17:42,195 main INFO  org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+2015-03-02 22:17:42,195 main INFO  org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+2015-03-02 22:17:42,195 main INFO  org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+2015-03-02 22:17:42,195 main INFO  org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2015-03-02 22:17:42,226 main INFO  org.hibernate.impl.SessionFactoryImpl - building session factory
+2015-03-02 22:17:42,226 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@1ea6281d
+2015-03-02 22:17:42,226 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [blob] overrides previous : org.hibernate.type.BlobType@2e9397a3
+2015-03-02 22:17:42,226 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@2e9397a3
+2015-03-02 22:17:42,226 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@5bc86638
+2015-03-02 22:17:42,226 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@41af159b
+2015-03-02 22:17:42,226 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [clob] overrides previous : org.hibernate.type.ClobType@4db394cd
+2015-03-02 22:17:42,226 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@4db394cd
+2015-03-02 22:17:42,226 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@48ee4695
+2015-03-02 22:17:42,226 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@135c059b
+2015-03-02 22:17:42,382 main INFO  org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+2015-03-02 22:17:42,585 main INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts-default.xml]
+2015-03-02 22:17:42,648 main INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts-plugin.xml]
+2015-03-02 22:17:42,679 main INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts.xml]
+2015-03-02 22:17:42,679 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (spring) for class com.opensymphony.xwork2.ObjectFactory
+2015-03-02 22:17:42,679 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for class com.opensymphony.xwork2.conversion.impl.XWorkConverter
+2015-03-02 22:17:42,679 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.TextProvider
+2015-03-02 22:17:42,679 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.ActionProxyFactory
+2015-03-02 22:17:42,679 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.conversion.ObjectTypeDeterminer
+2015-03-02 22:17:42,679 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.dispatcher.mapper.ActionMapper
+2015-03-02 22:17:42,679 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (jakarta) for interface org.apache.struts2.dispatcher.multipart.MultiPartRequest
+2015-03-02 22:17:42,679 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for class org.apache.struts2.views.freemarker.FreemarkerManager
+2015-03-02 22:17:42,679 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.components.UrlRenderer
+2015-03-02 22:17:42,679 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.validator.ActionValidatorManager
+2015-03-02 22:17:42,679 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.ValueStackFactory
+2015-03-02 22:17:42,679 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionProvider
+2015-03-02 22:17:42,679 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionContextFactory
+2015-03-02 22:17:42,679 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.PatternMatcher
+2015-03-02 22:17:42,679 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.dispatcher.StaticContentLoader
+2015-03-02 22:17:42,679 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.UnknownHandlerManager
+2015-03-02 22:17:42,742 main INFO  org.apache.struts2.spring.StrutsSpringObjectFactory - Initializing Struts-Spring integration...
+2015-03-02 22:17:42,742 main INFO  com.opensymphony.xwork2.spring.SpringObjectFactory - Setting autowire strategy to name
+2015-03-02 22:17:42,742 main INFO  org.apache.struts2.spring.StrutsSpringObjectFactory - ... initialized Struts-Spring integration successfully
+2015-03-03 20:36:36,151 1646451110@qtp-580844962-49 WARN  org.hibernate.jdbc.AbstractBatcher - exception clearing maxRows/queryTimeout
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after statement closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1014)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:988)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:974)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.StatementImpl.checkClosed(StatementImpl.java:463)
+	at com.mysql.jdbc.StatementImpl.getMaxRows(StatementImpl.java:2197)
+	at org.apache.commons.dbcp.DelegatingStatement.getMaxRows(DelegatingStatement.java:237)
+	at org.apache.commons.dbcp.DelegatingStatement.getMaxRows(DelegatingStatement.java:237)
+	at org.hibernate.jdbc.AbstractBatcher.closeQueryStatement(AbstractBatcher.java:298)
+	at org.hibernate.jdbc.AbstractBatcher.closeQueryStatement(AbstractBatcher.java:234)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:1967)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:802)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:274)
+	at org.hibernate.loader.Loader.doList(Loader.java:2542)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2276)
+	at org.hibernate.loader.Loader.list(Loader.java:2271)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:459)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:365)
+	at org.hibernate.engine.query.HQLQueryPlan.performList(HQLQueryPlan.java:196)
+	at org.hibernate.impl.SessionImpl.list(SessionImpl.java:1268)
+	at org.hibernate.impl.QueryImpl.list(QueryImpl.java:102)
+	at org.springframework.orm.hibernate3.HibernateTemplate$30.doInHibernate(HibernateTemplate.java:921)
+	at org.springframework.orm.hibernate3.HibernateTemplate$30.doInHibernate(HibernateTemplate.java:1)
+	at org.springframework.orm.hibernate3.HibernateTemplate.doExecute(HibernateTemplate.java:406)
+	at org.springframework.orm.hibernate3.HibernateTemplate.executeWithNativeSession(HibernateTemplate.java:374)
+	at org.springframework.orm.hibernate3.HibernateTemplate.find(HibernateTemplate.java:912)
+	at com.fdzcxy.tms.manager.common.CommonDaoSupport.find(CommonDaoSupport.java:40)
+	at com.fdzcxy.tms.manager.dao.impl.CourseDaoImpl.findById(CourseDaoImpl.java:44)
+	at com.fdzcxy.tms.manager.service.impl.CourseServiceImpl.findById(CourseServiceImpl.java:41)
+	at com.fdzcxy.tms.manager.action.CourseAction.execute(CourseAction.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invokeAction(DefaultActionInvocation.java:453)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invokeActionOnly(DefaultActionInvocation.java:292)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:255)
+	at org.apache.struts2.interceptor.debugging.DebuggingInterceptor.intercept(DebuggingInterceptor.java:256)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249)
+	at com.opensymphony.xwork2.interceptor.DefaultWorkflowInterceptor.doIntercept(DefaultWorkflowInterceptor.java:176)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249)
+	at com.opensymphony.xwork2.validator.ValidationInterceptor.doIntercept(ValidationInterceptor.java:265)
+	at org.apache.struts2.interceptor.validation.AnnotationValidationInterceptor.doIntercept(AnnotationValidationInterceptor.java:68)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249)
+	at com.opensymphony.xwork2.interceptor.ConversionErrorInterceptor.intercept(ConversionErrorInterceptor.java:138)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:211)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:211)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249)
+	at com.opensymphony.xwork2.interceptor.StaticParametersInterceptor.intercept(StaticParametersInterceptor.java:190)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249)
+	at org.apache.struts2.interceptor.MultiselectInterceptor.intercept(MultiselectInterceptor.java:75)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249)
+	at org.apache.struts2.interceptor.CheckboxInterceptor.intercept(CheckboxInterceptor.java:90)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249)
+	at org.apache.struts2.interceptor.FileUploadInterceptor.intercept(FileUploadInterceptor.java:243)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249)
+	at com.opensymphony.xwork2.interceptor.ModelDrivenInterceptor.intercept(ModelDrivenInterceptor.java:100)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249)
+	at com.opensymphony.xwork2.interceptor.ScopedModelDrivenInterceptor.intercept(ScopedModelDrivenInterceptor.java:141)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249)
+	at com.opensymphony.xwork2.interceptor.ChainingInterceptor.intercept(ChainingInterceptor.java:145)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249)
+	at com.opensymphony.xwork2.interceptor.PrepareInterceptor.doIntercept(PrepareInterceptor.java:171)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249)
+	at com.opensymphony.xwork2.interceptor.I18nInterceptor.intercept(I18nInterceptor.java:176)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249)
+	at org.apache.struts2.interceptor.ServletConfigInterceptor.intercept(ServletConfigInterceptor.java:164)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249)
+	at com.opensymphony.xwork2.interceptor.AliasInterceptor.intercept(AliasInterceptor.java:192)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249)
+	at com.opensymphony.xwork2.interceptor.ExceptionMappingInterceptor.intercept(ExceptionMappingInterceptor.java:187)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249)
+	at org.apache.struts2.impl.StrutsActionProxy.execute(StrutsActionProxy.java:54)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:510)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:91)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1157)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:388)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:923)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:547)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+2015-03-03 20:36:36,155 1646451110@qtp-580844962-49 WARN  org.hibernate.util.JDBCExceptionReporter - SQL Error: 0, SQLState: 08S01
+2015-03-03 20:36:36,155 1646451110@qtp-580844962-49 ERROR org.hibernate.util.JDBCExceptionReporter - Communications link failure
+
+The last packet successfully received from the server was 75,060,989 milliseconds ago.  The last packet sent successfully to the server was 1 milliseconds ago.
+2015-03-03 20:36:36,178 1646451110@qtp-580844962-49 WARN  org.hibernate.util.JDBCExceptionReporter - SQL Error: 0, SQLState: null
+2015-03-03 20:36:36,178 1646451110@qtp-580844962-49 ERROR org.hibernate.util.JDBCExceptionReporter - Already closed.
+2015-03-03 20:36:36,178 1646451110@qtp-580844962-49 WARN  org.hibernate.util.JDBCExceptionReporter - SQL Error: 0, SQLState: null
+2015-03-03 20:36:36,178 1646451110@qtp-580844962-49 ERROR org.hibernate.util.JDBCExceptionReporter - Already closed.
+2015-03-03 20:36:52,194 main INFO  org.hibernate.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+2015-03-03 20:36:52,199 main INFO  org.hibernate.cfg.Environment - Hibernate 3.6.9.Final
+2015-03-03 20:36:52,201 main INFO  org.hibernate.cfg.Environment - hibernate.properties not found
+2015-03-03 20:36:52,203 main INFO  org.hibernate.cfg.Environment - Bytecode provider name : javassist
+2015-03-03 20:36:52,206 main INFO  org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+2015-03-03 20:36:52,302 main INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.User
+2015-03-03 20:36:52,335 main INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.User on table user
+2015-03-03 20:36:52,370 main INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.Menu
+2015-03-03 20:36:52,371 main INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.Menu on table menu
+2015-03-03 20:36:52,373 main INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.fdzcxy.tms.manager.model.Course
+2015-03-03 20:36:52,373 main INFO  org.hibernate.cfg.annotations.EntityBinder - Bind entity com.fdzcxy.tms.manager.model.Course on table course
+2015-03-03 20:36:52,385 main INFO  org.hibernate.cfg.Configuration - Hibernate Validator not found: ignoring
+2015-03-03 20:36:52,398 main INFO  org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2015-03-03 20:36:52,405 main INFO  org.hibernate.connection.ConnectionProviderFactory - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2015-03-03 20:36:52,700 main INFO  org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQLDialect
+2015-03-03 20:36:52,711 main INFO  org.hibernate.cfg.SettingsFactory - Database ->
+       name : MySQL
+    version : 5.7.3-m13-log
+      major : 5
+      minor : 7
+2015-03-03 20:36:52,711 main INFO  org.hibernate.cfg.SettingsFactory - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.21 ( Revision: ${bzr.revision-id} )
+      major : 5
+      minor : 1
+2015-03-03 20:36:52,712 main INFO  org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2015-03-03 20:36:52,713 main INFO  org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2015-03-03 20:36:52,713 main INFO  org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+2015-03-03 20:36:52,713 main INFO  org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+2015-03-03 20:36:52,713 main INFO  org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+2015-03-03 20:36:52,714 main INFO  org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+2015-03-03 20:36:52,714 main INFO  org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+2015-03-03 20:36:52,714 main INFO  org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+2015-03-03 20:36:52,714 main INFO  org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+2015-03-03 20:36:52,715 main INFO  org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+2015-03-03 20:36:52,715 main INFO  org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+2015-03-03 20:36:52,715 main INFO  org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+2015-03-03 20:36:52,716 main INFO  org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+2015-03-03 20:36:52,716 main INFO  org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+2015-03-03 20:36:52,716 main INFO  org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2015-03-03 20:36:52,717 main INFO  org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+2015-03-03 20:36:52,717 main INFO  org.hibernate.cfg.SettingsFactory - Query language substitutions: {false=0, true=1}
+2015-03-03 20:36:52,718 main INFO  org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: disabled
+2015-03-03 20:36:52,718 main INFO  org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+2015-03-03 20:36:52,718 main INFO  org.hibernate.cfg.SettingsFactory - Query cache: disabled
+2015-03-03 20:36:52,718 main INFO  org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2015-03-03 20:36:52,719 main INFO  org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+2015-03-03 20:36:52,719 main INFO  org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+2015-03-03 20:36:52,722 main INFO  org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+2015-03-03 20:36:52,723 main INFO  org.hibernate.cfg.SettingsFactory - Statistics: disabled
+2015-03-03 20:36:52,723 main INFO  org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+2015-03-03 20:36:52,723 main INFO  org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+2015-03-03 20:36:52,723 main INFO  org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+2015-03-03 20:36:52,723 main INFO  org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2015-03-03 20:36:52,741 main INFO  org.hibernate.impl.SessionFactoryImpl - building session factory
+2015-03-03 20:36:52,748 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@3b132f4b
+2015-03-03 20:36:52,748 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@68860339
+2015-03-03 20:36:52,748 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@363dc8cb
+2015-03-03 20:36:52,748 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@1249a33f
+2015-03-03 20:36:52,749 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [blob] overrides previous : org.hibernate.type.BlobType@207c867a
+2015-03-03 20:36:52,749 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@207c867a
+2015-03-03 20:36:52,749 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [clob] overrides previous : org.hibernate.type.ClobType@4f60c43f
+2015-03-03 20:36:52,749 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@4f60c43f
+2015-03-03 20:36:52,749 main INFO  org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@59f42ccf
+2015-03-03 20:36:53,048 main INFO  org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+2015-03-03 20:36:53,280 main INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts-default.xml]
+2015-03-03 20:36:53,557 main INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts-plugin.xml]
+2015-03-03 20:36:53,580 main INFO  com.opensymphony.xwork2.config.providers.XmlConfigurationProvider - Parsing configuration file [struts.xml]
+2015-03-03 20:36:53,583 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (spring) for class com.opensymphony.xwork2.ObjectFactory
+2015-03-03 20:36:53,583 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for class com.opensymphony.xwork2.conversion.impl.XWorkConverter
+2015-03-03 20:36:53,583 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.TextProvider
+2015-03-03 20:36:53,583 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.ActionProxyFactory
+2015-03-03 20:36:53,584 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.conversion.ObjectTypeDeterminer
+2015-03-03 20:36:53,584 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.dispatcher.mapper.ActionMapper
+2015-03-03 20:36:53,584 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (jakarta) for interface org.apache.struts2.dispatcher.multipart.MultiPartRequest
+2015-03-03 20:36:53,584 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for class org.apache.struts2.views.freemarker.FreemarkerManager
+2015-03-03 20:36:53,587 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.components.UrlRenderer
+2015-03-03 20:36:53,587 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.validator.ActionValidatorManager
+2015-03-03 20:36:53,587 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.ValueStackFactory
+2015-03-03 20:36:53,587 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionProvider
+2015-03-03 20:36:53,587 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionContextFactory
+2015-03-03 20:36:53,587 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.util.PatternMatcher
+2015-03-03 20:36:53,587 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface org.apache.struts2.dispatcher.StaticContentLoader
+2015-03-03 20:36:53,587 main INFO  org.apache.struts2.config.BeanSelectionProvider - Choosing bean (struts) for interface com.opensymphony.xwork2.UnknownHandlerManager
+2015-03-03 20:36:53,678 main INFO  org.apache.struts2.spring.StrutsSpringObjectFactory - Initializing Struts-Spring integration...
+2015-03-03 20:36:53,678 main INFO  com.opensymphony.xwork2.spring.SpringObjectFactory - Setting autowire strategy to name
+2015-03-03 20:36:53,678 main INFO  org.apache.struts2.spring.StrutsSpringObjectFactory - ... initialized Struts-Spring integration successfully

@@ -36,4 +36,8 @@ public class CourseServiceImpl implements CourseService {
 	public List<Course> findAllCourses() {
 		return courseDao.findAll();
 	}
+
+	public Course findById(int id) {
+		return courseDao.findById(id);
+	}
 }

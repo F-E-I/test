@@ -20,6 +20,7 @@ public class Const {
 	public static final String SESSION_USER = "user";
 	public static final String SESSION_MENULIST = "menuList";
 	public static final String SESSION_COURSELIST = "courseList";
+	public static final String SESSION_COURSE = "course";
 
 	public static final int MEMU_MAIN_ID = 0;
 }

@@ -22,4 +22,6 @@ public interface CourseService {
 	public void addCourse(Course course);
 
 	public List<Course> findAllCourses();
+
+	public Course findById(int id);
 }
