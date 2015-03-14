@@ -5,9 +5,6 @@
 <body>
 <div id="add-course" class="dialog">
 	<form id="addCourseForm" action="course!add" method="post">
-		<!-- <div class="header">
-			<h2>创建课程</h2>
-		</div> -->
 		<div class="body">
 			<div class="cForm">
 				<div class="cRow cType_text cTextInput" id="cId_name">
@@ -65,10 +62,6 @@
 				</div>
 			</div>
 		</div>
-		<!-- <div class="footer">
-			<input type="button" class="btn btn-legacy footer_button_cancel" value="取消">
-			<input type="button" class="btn btn-legacy footer_button_ok" value="确认">
-		</div> -->
 	</form>
 </div>
 <script type="text/javascript">

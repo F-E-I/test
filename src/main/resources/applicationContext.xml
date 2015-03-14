@@ -51,6 +51,7 @@
 				<value>com.fdzcxy.tms.manager.model.User</value>
 				<value>com.fdzcxy.tms.manager.model.Menu</value>
 				<value>com.fdzcxy.tms.manager.model.Course</value>
+				<value>com.fdzcxy.tms.manager.model.Question</value>
 			</list>
 		</property>
 	</bean>

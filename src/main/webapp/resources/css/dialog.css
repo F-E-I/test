@@ -147,3 +147,188 @@ legend.icon.expand {
 .footer .btn {
 	margin: 0 2px;
 }
+
+.cRow.cType_radio .cInput ul li {
+	display: table;
+	width: 100%;
+}
+
+#add-question .cRow {
+	background: 0 0;
+	border: none;
+	margin-top: 0;
+	border-bottom: 1px solid #eee;
+}
+
+#add-question .cRow:last-child {
+	border: none;
+}
+
+.cRow ul {
+	margin: 0;
+	padding: 0;
+}
+
+#add-question #cId_type .cInput li {
+	margin-bottom: 5px;
+}
+
+.cRow.cType_radio .cInput ul li .cRadioInput {
+	border: none;
+	outline: 0;
+}
+
+.cRow.cType_radio .cInput ul li .cRadioInput, .cRow.cType_radio .cInput ul li .cRadioLabel {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.cRow.cType_radio .cInput ul li .cRadioInput {
+	width: 28px;
+}
+
+.cRow.cType_radio .cInput ul li .cRadioLabel label {
+	display: block;
+	cursor: pointer;
+}
+
+#add-question .cRow#cId_type .cInput label {
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding-left: 100px;
+	line-height: 40px;
+	font-weight: 700;
+	font-size: 15px;
+}
+
+.cRadioLabel.singleSelect label {
+	background: url("../images/singleSelect.png") no-repeat;
+}
+
+.cRadioLabel.multipleSelect label {
+	background: url("../images/multipleSelect.png") no-repeat;
+}
+
+.cRadioLabel.wordAnswer label {
+	background: url("../images/wordAnswer.png") no-repeat;
+}
+
+#question-form {
+	display: table-cell;
+	padding-right: 10px;
+	width: 460px;
+}
+
+#add-question .cForm {
+	overflow: visible;
+}
+
+#question-sidebar {
+	display: table-cell;
+	width: 180px;
+	border-left: 1px solid #dfdfdf;
+	background: #EBEDEC;
+}
+
+#add-question #cId_question_fields {
+	padding: 3px 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#add-question #cId_choices table th {
+	font-weight: 700;
+	text-align: center;
+	font-size: 13px;
+}
+
+#add-question #cId_choices table td {
+	text-align: center;
+}
+
+#add-question #cId_choices table td:nth-child(1) {
+	width: 74%;
+}
+
+#add-question #cId_choices input.auto {
+	color: #888;
+}
+
+#add-question #cId_choices table td input[type=checkbox] {
+	display: inline;
+	width: auto;
+	margin: 14px auto;
+}
+
+#add-question #cId_choices a.cButton.delete {
+	padding: 8px 6px;
+}
+
+.cRow .cButton, .cInput .cButton, .cExtButton {
+	font-weight: 400;
+	text-decoration: none;
+	color: #5c5c5c;
+	margin: 5px 0;
+	display: inline-block;
+	font-size: 13px;
+	font-family: Arial,Helvetica;
+	padding: 6px 24px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px;
+	background: #d6dbdf;
+}
+
+.cRow.cClickInput .cInput {
+	width: 25px;
+}
+
+label {
+	cursor: pointer;
+}
+
+#question-sidebar h2 {
+	text-align: center;
+	background-image: -webkit-linear-gradient(rgba(79,82,85,.9),rgba(124,128,130,.9));
+	background-repeat: repeat;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#question-sidebar h2, #question_sidebar p {
+	font-size: 18px;
+	font-family: Helvetica Neue;
+}
+
+#question-sidebar p {
+	margin: 0 20px;
+	margin-top: 10px;
+	font-size: 13px!important;
+}
+
+#question-sidebar .cType_text .cLabel {
+	width: 60%;
+	min-width: 50px;
+}
+
+#question-sidebar .cType_text .cInput {
+	width: 30%;
+}
+
+.cRow.cClickInput .cInput {
+	width: 25px;
+}
+
+#question-sidebar #accordion h3 {
+	font-size: 13px;
+}
+
+#question-sidebar #accordion {
+	position: absolute;
+	bottom: 0;
+}

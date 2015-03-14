@@ -23,16 +23,20 @@ function initDialog(){
 			parent.addClass('cCollapsed');
 		}
 	});
+	$('.cRadioLabel').click(function(){
+		$(this).siblings('.cRadioInput').find('input[type=radio]').click();
+	})
+	$('#accordion').accordion();
 }
 
-function openPageDialog(url, title, width){
+function openPageDialog(url, title, width, buttons){
 	$('#dialogDiv').remove();
 	$('body').append('<div id="dialogDiv"></div>');
 	$.get(url, function(r){ $('#dialogDiv').html(r); }, 'html');
 	$('#dialogDiv').dialog({  
     	autoOpen:false,
-        width:width,//宽度  
-        buttons:{  
+        width:width,//宽度 
+        buttons:buttons?buttons:{  
         	"取消":function(){  
             	$(this).dialog('close');
             	$('#main').css({'position':'absolute'});
@@ -48,6 +52,7 @@ function openPageDialog(url, title, width){
         bgiframe:false,
         closeOnEscape:false,//按esc退出默认的true  
         draggable:true, //拖拽默认是true  
+        resizable:false,
         hide:"toggle",//关闭窗口的效果  
         modal:true, //遮罩效果默认是false不遮住  
         //position:"center", //对话框弹出的位置，top,left,right,center,默认是center  

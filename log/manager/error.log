@@ -20854,3 +20854,88 @@ Caused by: java.net.SocketException: Software caused connection abort: recv fail
 The last packet successfully received from the server was 75,060,989 milliseconds ago.  The last packet sent successfully to the server was 1 milliseconds ago.
 2015-03-03 20:36:36,178 1646451110@qtp-580844962-49 ERROR org.hibernate.util.JDBCExceptionReporter - Already closed.
 2015-03-03 20:36:36,178 1646451110@qtp-580844962-49 ERROR org.hibernate.util.JDBCExceptionReporter - Already closed.
+2015-03-08 11:57:18,201 300125587@qtp-936331064-254 ERROR org.hibernate.util.JDBCExceptionReporter - Communications link failure
+
+The last packet successfully received from the server was 48,517,400 milliseconds ago.  The last packet sent successfully to the server was 77 milliseconds ago.
+2015-03-08 11:57:18,243 300125587@qtp-936331064-254 ERROR org.hibernate.util.JDBCExceptionReporter - Already closed.
+2015-03-08 11:57:18,244 300125587@qtp-936331064-254 ERROR org.hibernate.util.JDBCExceptionReporter - Already closed.
+2015-03-10 19:41:08,111 362521072@qtp-159765216-106 ERROR org.hibernate.util.JDBCExceptionReporter - Communications link failure
+
+The last packet successfully received from the server was 160,045,316 milliseconds ago.  The last packet sent successfully to the server was 1 milliseconds ago.
+2015-03-10 19:41:08,133 362521072@qtp-159765216-106 ERROR org.hibernate.util.JDBCExceptionReporter - Already closed.
+2015-03-10 19:41:08,133 362521072@qtp-159765216-106 ERROR org.hibernate.util.JDBCExceptionReporter - Already closed.
+2015-03-12 20:42:11,274 1406431785@qtp-1444598836-121 ERROR org.hibernate.util.JDBCExceptionReporter - Communications link failure
+
+The last packet successfully received from the server was 164,859,793 milliseconds ago.  The last packet sent successfully to the server was 1 milliseconds ago.
+2015-03-12 20:42:11,275 1406431785@qtp-1444598836-121 ERROR org.hibernate.util.JDBCExceptionReporter - Already closed.
+2015-03-12 20:42:11,275 1406431785@qtp-1444598836-121 ERROR org.hibernate.util.JDBCExceptionReporter - Already closed.
+2015-03-13 22:43:56,110 Timer-1 ERROR org.apache.struts2.dispatcher.Dispatcher - Dispatcher initialization failed
+Unable to load configuration. - [unknown location]
+	at com.opensymphony.xwork2.config.ConfigurationManager.getConfiguration(ConfigurationManager.java:69)
+	at org.apache.struts2.dispatcher.Dispatcher.init_PreloadConfiguration(Dispatcher.java:390)
+	at org.apache.struts2.dispatcher.Dispatcher.init(Dispatcher.java:436)
+	at org.apache.struts2.dispatcher.ng.InitOperations.initDispatcher(InitOperations.java:69)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.init(StrutsPrepareAndExecuteFilter.java:51)
+	at org.mortbay.jetty.servlet.FilterHolder.doStart(FilterHolder.java:97)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:662)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:517)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:467)
+	at org.mortbay.jetty.plugin.Jetty6PluginWebAppContext.doStart(Jetty6PluginWebAppContext.java:115)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.plugin.AbstractJettyRunMojo.restartWebApp(AbstractJettyRunMojo.java:458)
+	at org.mortbay.jetty.plugin.AbstractJettyRunMojo$1.filesChanged(AbstractJettyRunMojo.java:419)
+	at org.mortbay.util.Scanner.reportBulkChanges(Scanner.java:486)
+	at org.mortbay.util.Scanner.reportDifferences(Scanner.java:352)
+	at org.mortbay.util.Scanner.scan(Scanner.java:280)
+	at org.mortbay.util.Scanner$1.run(Scanner.java:232)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+Caused by: Unable to locate parent package [tms-default] - [unknown location]
+	at org.apache.struts2.convention.PackageBasedActionConfigBuilder.getPackageConfig(PackageBasedActionConfigBuilder.java:951)
+	at org.apache.struts2.convention.PackageBasedActionConfigBuilder.buildConfiguration(PackageBasedActionConfigBuilder.java:600)
+	at org.apache.struts2.convention.PackageBasedActionConfigBuilder.buildActionConfigs(PackageBasedActionConfigBuilder.java:335)
+	at org.apache.struts2.convention.ClasspathPackageProvider.loadPackages(ClasspathPackageProvider.java:53)
+	at com.opensymphony.xwork2.config.impl.DefaultConfiguration.reloadContainer(DefaultConfiguration.java:215)
+	at com.opensymphony.xwork2.config.ConfigurationManager.getConfiguration(ConfigurationManager.java:66)
+	... 21 more
+2015-03-13 22:47:20,530 131914520@qtp-790617664-2 ERROR org.hibernate.util.JDBCExceptionReporter - Incorrect integer value: '' for column 'course_code' at row 1
+2015-03-14 12:11:36,981 Timer-1 ERROR org.apache.struts2.dispatcher.Dispatcher - Dispatcher initialization failed
+Unable to load configuration. - [unknown location]
+	at com.opensymphony.xwork2.config.ConfigurationManager.getConfiguration(ConfigurationManager.java:69)
+	at org.apache.struts2.dispatcher.Dispatcher.init_PreloadConfiguration(Dispatcher.java:390)
+	at org.apache.struts2.dispatcher.Dispatcher.init(Dispatcher.java:436)
+	at org.apache.struts2.dispatcher.ng.InitOperations.initDispatcher(InitOperations.java:69)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.init(StrutsPrepareAndExecuteFilter.java:51)
+	at org.mortbay.jetty.servlet.FilterHolder.doStart(FilterHolder.java:97)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:662)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:517)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:467)
+	at org.mortbay.jetty.plugin.Jetty6PluginWebAppContext.doStart(Jetty6PluginWebAppContext.java:115)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.plugin.AbstractJettyRunMojo.restartWebApp(AbstractJettyRunMojo.java:458)
+	at org.mortbay.jetty.plugin.AbstractJettyRunMojo$1.filesChanged(AbstractJettyRunMojo.java:419)
+	at org.mortbay.util.Scanner.reportBulkChanges(Scanner.java:486)
+	at org.mortbay.util.Scanner.reportDifferences(Scanner.java:352)
+	at org.mortbay.util.Scanner.scan(Scanner.java:280)
+	at org.mortbay.util.Scanner$1.run(Scanner.java:232)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+Caused by: Unable to find a result type for extension [action] in location attribute [course.action]. - [unknown location]
+	at org.apache.struts2.convention.DefaultResultMapBuilder$ResultInfo.determineType(DefaultResultMapBuilder.java:513)
+	at org.apache.struts2.convention.DefaultResultMapBuilder$ResultInfo.<init>(DefaultResultMapBuilder.java:485)
+	at org.apache.struts2.convention.DefaultResultMapBuilder.createFromAnnotations(DefaultResultMapBuilder.java:410)
+	at org.apache.struts2.convention.DefaultResultMapBuilder.createResultsFromAnnotations(DefaultResultMapBuilder.java:220)
+	at org.apache.struts2.convention.DefaultResultMapBuilder.build(DefaultResultMapBuilder.java:196)
+	at org.apache.struts2.convention.PackageBasedActionConfigBuilder.createActionConfig(PackageBasedActionConfigBuilder.java:864)
+	at org.apache.struts2.convention.PackageBasedActionConfigBuilder.buildConfiguration(PackageBasedActionConfigBuilder.java:667)
+	at org.apache.struts2.convention.PackageBasedActionConfigBuilder.buildActionConfigs(PackageBasedActionConfigBuilder.java:335)
+	at org.apache.struts2.convention.ClasspathPackageProvider.loadPackages(ClasspathPackageProvider.java:53)
+	at com.opensymphony.xwork2.config.impl.DefaultConfiguration.reloadContainer(DefaultConfiguration.java:215)
+	at com.opensymphony.xwork2.config.ConfigurationManager.getConfiguration(ConfigurationManager.java:66)
+	... 21 more

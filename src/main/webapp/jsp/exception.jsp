@@ -7,7 +7,7 @@
 <body>
 	<div id="header">
 		<div class="container">
-			<div class="logo">教学管理系统后台</div>
+			<div class="logo">授课通用平台</div>
 		</div>
 	</div>
 	<div id="main">

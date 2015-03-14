@@ -3,7 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>教学管理系统后台</title>
+<title>授课通用平台</title>
 <link rel="stylesheet" type="text/css" href="${ctx}/resources/css/main.css">
 <link rel="stylesheet" type="text/css" href="${ctx}/resources/css/dialog.css">
 <script type="text/javascript" src="${ctx}/resources/js/jquery-1.11.1.min.js"></script>

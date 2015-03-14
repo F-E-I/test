@@ -4,7 +4,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <div id="header">
 	<div class="container">
-		<div class="logo"><a class="back3" href="user"></a>教学管理系统后台</div>
+		<div class="logo"><a class="back3" href="user"></a>授课通用平台</div>
 		<div class="course-list">
 			<ul class="course-list-container">
 				<li class="course-list-dropdown">

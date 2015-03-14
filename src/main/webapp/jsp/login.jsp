@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>教学管理系统后台</title>
+<title>授课通用平台</title>
 <link rel="stylesheet" type="text/css" href="${ctx}/resources/css/login.css">
 <script type="text/javascript" src="${ctx}/resources/js/jquery-1.11.1.min.js" ></script>
 <script type="text/javascript" src="${ctx}/resources/js/jquery.placeholder.js"></script>
@@ -15,7 +15,7 @@
 </head>
 <body>
 	<div class="content">
-		<div class="title">教学管理系统后台</div>
+		<div class="title">授课通用平台</div>
 		<div class="errMsg"></div>
 		<div class="login-form">
 			<form id="loginForm" action="user!login" method="post">
