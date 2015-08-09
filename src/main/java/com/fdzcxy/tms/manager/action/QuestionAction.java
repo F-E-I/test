@@ -39,8 +39,7 @@ import com.opensymphony.xwork2.ActionSupport;
 @Namespace("/jsp")
 @Action("question")
 @Results({ @Result(name = "json", type = "json"),
-		@Result(name = "courseIndex", location = "course", type = "redirect"),
-		@Result(name = "singleSelect", location = "question/singleSelect.jsp") })
+		@Result(name = "courseIndex", location = "course", type = "redirect") })
 public class QuestionAction extends ActionSupport {
 
 	private static final long serialVersionUID = 1L;
@@ -54,6 +53,8 @@ public class QuestionAction extends ActionSupport {
 	private String type;
 
 	private Question question;
+
+	private String questionIds;
 
 	private List<String> options = new ArrayList<String>(10);
 
@@ -72,14 +73,10 @@ public class QuestionAction extends ActionSupport {
 
 	@Override
 	public String execute() throws Exception {
-		if (Const.QUESTION_TYPE_SINGLE_SELECT.equals(type)) {
-			return "singleSelect";
-		} else if (Const.QUESTION_TYPE_MULTIPLE_SELECT.equals(type)) {
-			return "multipleSelect";
-		} else if (Const.QUESTION_TYPE_WORD_ANSWER.equals(type)) {
-			return "wordAnswer";
-		}
-		return null;
+		ActionContext ac = ActionContext.getContext();
+		Map<String, Object> session = ac.getSession();
+		session.remove(Const.SESSION_EDIT_QUESTION);
+		return JSON;
 	}
 
 	public String add() throws Exception {
@@ -170,6 +167,15 @@ public class QuestionAction extends ActionSupport {
 		return JSON;
 	}
 
+	public String delete() {
+		if (!StringUtils.isEmpty(questionIds)) {
+			for (String q : questionIds.split("#")) {
+				questionService.deleteQuestionById(Integer.parseInt(q));
+			}
+		}
+		return COURSE_INDEX;
+	}
+
 	public String getType() {
 		return type;
 	}
@@ -184,6 +190,14 @@ public class QuestionAction extends ActionSupport {
 
 	public void setQuestion(Question question) {
 		this.question = question;
+	}
+
+	public String getQuestionIds() {
+		return questionIds;
+	}
+
+	public void setQuestionIds(String questionIds) {
+		this.questionIds = questionIds;
 	}
 
 	public List<String> getOptions() {

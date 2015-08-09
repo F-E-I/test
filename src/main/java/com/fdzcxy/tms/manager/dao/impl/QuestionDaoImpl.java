@@ -87,4 +87,9 @@ public class QuestionDaoImpl extends CommonDaoSupport implements QuestionDao {
 		return list.get(0);
 	}
 
+	public void deleteQuestionById(int id) {
+		this.executeQuery(
+				"delete from com.fdzcxy.tms.manager.model.Question q where q.id=?",
+				id);
+	}
 }

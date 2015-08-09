@@ -152,6 +152,8 @@
 						</div>
 						<div class="thm-panel-footer"></div>
 					</div>
+					<form id="deleteQuestionForm" action="question!delete" method="post" onsubmit="return false;">
+					<s:hidden name="questionIds"></s:hidden>
 					<div id="question-control-panel" class="thm-panel">
 						<div class="thm-panel-header thm-panel-top minimize">
 							<h2>题目：</h2>
@@ -162,7 +164,7 @@
 						</div>
 						<div class="thm-panel-toolbar toolbar-active">
 							<button type="button" class="btn btn-primary toolbar-btn folder-btn icon"></button>
-							<button type="button" class="btn btn-primary toolbar-btn delete-btn icon">删除</button>
+							<button id="deleteQuestionBtn" type="button" class="btn btn-primary toolbar-btn delete-btn icon">删除</button>
 							<button id="addQuestionBtn" type="button" class="btn btn-primary toolbar-btn add-btn icon">新建</button>
 						</div>
 						<div id="question-control-panel-body" class="thm-panel-body thm-panel-bottom">
@@ -191,7 +193,7 @@
 											<li class="tree-row module-item no-tree-children no-tree-children">
 												<div class="module selectable">
 													<div class="checkbox">
-												        <input type="checkbox">
+												        <input type="checkbox" value="<s:property value="#question.id"/>">
 												        <em class="module-item"><s:property value="#question.title"/></em>
 												    </div>
 													<div class="action-container">
@@ -224,6 +226,7 @@
 						</div>
 						<div class="thm-panel-footer"></div>
 					</div>
+					</form>
 					<div id="discussion-control-panel" class="thm-panel thm-panel-hidden"></div>
 					<div class="placeholder-control">无内容</div>
 				</div>
@@ -359,42 +362,56 @@
 				$(this).siblings('input[type=checkbox]').prop('checked', true).click();
 			});
 			$('#addQuestionBtn').click(function(){
-				var buttons = {  
-			        	"取消":function(){  
-			            	$(this).dialog('close');
-			            	$('#main').css({'position':'absolute'});
-			            },
-			            "下一步":function(){
-			            	var url;
-			            	var type = $('.cType_radio').find('input:radio[name="type"]:checked').val();
-			            	if(type == '0'){
-			            		url = 'question/singleSelect.jsp';
-			            	}else if(type == '1'){
-			            		url = 'question/multipleSelect.jsp';
-			            	}else if(type == '2'){
-			            		url = 'question/wordAnswer.jsp';
-			            	}
-			            	var subButtons = {
-			            		"取消":function(){  
-						           	$(this).dialog('close');
-						           	$('#main').css({'position':'absolute'});
-						        },
-						        "返回":function(){  
-						        	openPageDialog('teacher/addQuestion.jsp', '创建题目', 300, buttons);
-						           	$('#main').css({'position':'absolute'});
-						        },
-						        "保存":function(){  
-					            	if($(this).find('form').validationEngine('validate')){
-						            	$(this).find('form').submit();
-						            	$(this).dialog('close');
-						            	$('#main').css({'position':'absolute'});
-					            	}
-					            }
-			            	}
-			            	openPageDialog(url, '创建题目', 600, subButtons);
-			            } 
-			        }
-				openPageDialog('teacher/addQuestion.jsp', '创建题目', 300, buttons);
+				$.post('${ctx}/jsp/question', function(){
+					var buttons = {  
+				        	"取消":function(){  
+				            	$(this).dialog('close');
+				            	$('#main').css({'position':'absolute'});
+				            },
+				            "下一步":function(){
+				            	var url;
+				            	var type = $('.cType_radio').find('input:radio[name="type"]:checked').val();
+				            	if(type == '0'){
+				            		url = 'question/singleSelect.jsp';
+				            	}else if(type == '1'){
+				            		url = 'question/multipleSelect.jsp';
+				            	}else if(type == '2'){
+				            		url = 'question/wordAnswer.jsp';
+				            	}
+				            	var subButtons = {
+				            		"取消":function(){  
+							           	$(this).dialog('close');
+							           	$('#main').css({'position':'absolute'});
+							        },
+							        "返回":function(){  
+							        	openPageDialog('teacher/addQuestion.jsp', '创建题目', 300, buttons);
+							           	$('#main').css({'position':'absolute'});
+							        },
+							        "保存":function(){  
+						            	if($(this).find('form').validationEngine('validate')){
+							            	$(this).find('form').submit();
+							            	$(this).dialog('close');
+							            	$('#main').css({'position':'absolute'});
+						            	}
+						            }
+				            	}
+				            	openPageDialog(url, '创建题目', 600, subButtons);
+				            } 
+				        }
+					openPageDialog('teacher/addQuestion.jsp', '创建题目', 300, buttons);
+				});
+			});
+			$('#deleteQuestionBtn').click(function(){
+				var str = '';
+				$('#question-control-panel-body .module-item').each(function(i){
+					var obj = $(this).find('.checkbox input:checkbox');
+					if(obj.is(':checked')){
+						str = str + obj.val() + "#";
+					}
+				})
+				str = str.substr(0, str.length-1);
+				$('#questionIds').val(str);
+				$('#deleteQuestionForm')[0].submit();
 			});
 			$('.thm-tabbed-panel').tabs();
 			$('.status-popover .close.icon.x').click(function(){

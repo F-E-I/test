@@ -36,4 +36,6 @@ public interface QuestionDao {
 
 	public Question findById(int id);
 
+	public void deleteQuestionById(int id);
+
 }

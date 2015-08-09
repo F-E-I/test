@@ -10,7 +10,10 @@ import java.util.List;
 
 import javax.annotation.Resource;
 
+import org.hibernate.Query;
+import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
 import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
 
 /**
@@ -42,6 +45,19 @@ public abstract class CommonDaoSupport extends HibernateDaoSupport {
 	@SuppressWarnings("rawtypes")
 	public List find(String queryString, Object... values) {
 		return getHibernateTemplate().find(queryString, values);
+	}
+
+	public void executeQuery(final String queryString, Integer... values) {
+		Session s = this.getHibernateTemplate().getSessionFactory()
+				.openSession();
+		Transaction tx = s.beginTransaction();
+		Query query = s.createQuery(queryString);
+		for (int i = 0; i < values.length; i++) {
+			query.setInteger(i, values[i]);
+		}
+		query.executeUpdate();
+		tx.commit();
+		s.close();
 	}
 
 }

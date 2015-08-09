@@ -83,20 +83,20 @@
 						</div>
 					</fieldset>
 				</div>
+				<div class="cRow cType_checkbox cClickInput" id="cId_advanced">
+					<div class="cInput">
+						<input type="checkbox" id="advanced" checked>
+					</div>
+					<div class="cLabel">
+						<label>显示更多配置</label>
+					</div>
+				</div>
 				<div class="cRow cType_checkbox cClickInput" id="cId_active_immediately">
 					<div class="cInput">
 						<input type="checkbox" name="createAndActive" value=true id="active_immediately">
 					</div>
 					<div class="cLabel">
 						<label>创建后立即激活</label>
-					</div>
-				</div>
-				<div class="cRow cType_checkbox cClickInput" id="cId_advanced">
-					<div class="cInput">
-						<input type="checkbox" id="advanced" checked="checked">
-					</div>
-					<div class="cLabel">
-						<label>显示更多配置</label>
 					</div>
 				</div>
 				<div class="cRow cType_checkbox cClickInput" id="cId_is_anonymous">
@@ -167,6 +167,17 @@
 		$('#title').focus();
 		$('#question-form .cClickInput .cLabel').click(function(){
 			$(this).siblings('.cInput').find('input:checkbox').click();
+		});
+		$('#cId_advanced').click(function(){
+			if($(this).find('.cInput input:checkbox').is(':checked')){
+				$('#cId_active_immediately').show();
+				$('#cId_is_anonymous').show();
+				$('#accordion').show();
+			}else{
+				$('#cId_active_immediately').hide();
+				$('#cId_is_anonymous').hide();
+				$('#accordion').hide();
+			}
 		});
 	});
 </script>

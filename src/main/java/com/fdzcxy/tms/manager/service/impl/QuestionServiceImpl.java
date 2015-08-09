@@ -61,4 +61,8 @@ public class QuestionServiceImpl implements QuestionService {
 	public void saveOrUpdate(Question question) {
 		questionDao.saveOrUpdateQuestion(question);
 	}
+
+	public void deleteQuestionById(int id) {
+		questionDao.deleteQuestionById(id);
+	}
 }

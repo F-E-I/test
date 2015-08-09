@@ -36,4 +36,5 @@ public interface QuestionService {
 
 	public void saveOrUpdate(Question question);
 
+	public void deleteQuestionById(int id);
 }
