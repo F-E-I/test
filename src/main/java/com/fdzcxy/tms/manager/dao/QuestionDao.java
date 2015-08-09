@@ -21,6 +21,10 @@ public interface QuestionDao {
 
 	public void addQuestion(Question question);
 
+	public void updateQuestion(Question question);
+
+	public void saveOrUpdateQuestion(Question question);
+
 	public List<Question> findAll();
 
 	public List<Question> findByStatus(String status);
@@ -29,5 +33,7 @@ public interface QuestionDao {
 
 	public List<Question> findByCourseCodeAndStatus(String courseCode,
 			String status);
+
+	public Question findById(int id);
 
 }

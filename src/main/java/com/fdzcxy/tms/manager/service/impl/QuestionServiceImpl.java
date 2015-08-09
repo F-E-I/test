@@ -50,4 +50,15 @@ public class QuestionServiceImpl implements QuestionService {
 		return questionDao.findByCourseCodeAndStatus(courseCode, status);
 	}
 
+	public Question findById(int id) {
+		return questionDao.findById(id);
+	}
+
+	public void update(Question question) {
+		questionDao.updateQuestion(question);
+	}
+
+	public void saveOrUpdate(Question question) {
+		questionDao.saveOrUpdateQuestion(question);
+	}
 }

@@ -24,7 +24,7 @@ public class Question {
 
 	@Id
 	@Column(name = "ID")
-	private int id;
+	private Integer id;
 
 	@Column(name = "TITLE")
 	private String title;
@@ -59,11 +59,11 @@ public class Question {
 	@Column(name = "COURSE_CODE")
 	private String courseCode;
 
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
@@ -153,6 +153,13 @@ public class Question {
 
 	public void setCourseCode(String courseCode) {
 		this.courseCode = courseCode;
+	}
+
+	public String[] getOptionList() {
+		if (this.options != null) {
+			return this.options.split("#");
+		}
+		return null;
 	}
 
 }

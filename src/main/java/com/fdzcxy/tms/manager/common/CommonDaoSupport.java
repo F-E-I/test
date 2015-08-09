@@ -35,8 +35,13 @@ public abstract class CommonDaoSupport extends HibernateDaoSupport {
 		getHibernateTemplate().saveOrUpdate(entity);
 	}
 
+	public void update(Object entity) {
+		getHibernateTemplate().update(entity);
+	}
+
 	@SuppressWarnings("rawtypes")
 	public List find(String queryString, Object... values) {
 		return getHibernateTemplate().find(queryString, values);
 	}
+
 }

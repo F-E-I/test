@@ -32,7 +32,9 @@ function initDialog(){
 function openPageDialog(url, title, width, buttons){
 	$('#dialogDiv').remove();
 	$('body').append('<div id="dialogDiv"></div>');
-	$.get(url, function(r){ $('#dialogDiv').html(r); }, 'html');
+	$.get(url, function(r){
+		$('#dialogDiv').html(r);
+	}, 'html');
 	$('#dialogDiv').dialog({  
     	autoOpen:false,
         width:width,//宽度 

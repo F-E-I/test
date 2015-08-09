@@ -61,10 +61,7 @@ public class CourseAction extends ActionSupport {
 		ActionContext ac = ActionContext.getContext();
 		Map<String, Object> session = ac.getSession();
 
-		if (session.get(Const.SESSION_COURSE) == null) {
-			if (courseId == null) {
-				throw new Exception("¿Î³ÌIDÎª¿Õ");
-			}
+		if (courseId != null) {
 			Course course = courseService.findById(Integer.valueOf(courseId));
 			session.put(Const.SESSION_COURSE, course);
 		}

@@ -18,6 +18,8 @@ import org.apache.struts2.convention.annotation.Namespace;
 import org.apache.struts2.convention.annotation.ParentPackage;
 import org.apache.struts2.convention.annotation.Result;
 import org.apache.struts2.convention.annotation.Results;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.fdzcxy.tms.manager.common.Const;
 import com.fdzcxy.tms.manager.model.Course;
@@ -43,6 +45,9 @@ public class QuestionAction extends ActionSupport {
 
 	private static final long serialVersionUID = 1L;
 
+	private static Logger logger = LoggerFactory
+			.getLogger(QuestionAction.class);
+
 	private static final String COURSE_INDEX = "courseIndex";
 	private static final String JSON = "json";
 
@@ -55,6 +60,12 @@ public class QuestionAction extends ActionSupport {
 	private String[] correctOptions;
 
 	private boolean createAndActive;
+
+	private String questionId;
+
+	private String status;
+
+	private String errMsg;
 
 	@Resource(name = "questionService")
 	private QuestionService questionService;
@@ -81,17 +92,22 @@ public class QuestionAction extends ActionSupport {
 			throw new Exception("必输要素为空");
 		}
 
+		Question q = question;
+		if (questionId != null) {
+			q = questionService.findById(Integer.parseInt(questionId));
+			q.setTitle(question.getTitle());
+			q.setDetail(question.getDetail());
+			q.setCorrentScore(question.getCorrentScore());
+			q.setParticipationScore(question.getParticipationScore());
+			q.setTime(question.getTime());
+			q.setTimeLimit(question.getTimeLimit());
+		}
+
 		ActionContext ac = ActionContext.getContext();
 		Map<String, Object> session = ac.getSession();
 
 		Course course = (Course) session.get(Const.SESSION_COURSE);
-		question.setCourseCode(course.getCourseCode());
-		// 设置状态
-		if (createAndActive) {
-			question.setStatus(Const.QUESTION_STATUS_SHOW);
-		} else {
-			question.setStatus(Const.QUESTION_STATUS_CLOSED);
-		}
+		q.setCourseCode(course.getCourseCode());
 		// 设置选项
 		if (options != null) {
 			StringBuffer sb = new StringBuffer();
@@ -99,7 +115,7 @@ public class QuestionAction extends ActionSupport {
 				sb.append(options.get(i)).append("#");
 			}
 			sb.append(options.get(options.size() - 1));
-			question.setOptions(sb.toString());
+			q.setOptions(sb.toString());
 		}
 		// 设置正确答案
 		if (correctOptions != null) {
@@ -107,11 +123,51 @@ public class QuestionAction extends ActionSupport {
 			for (String str : correctOptions) {
 				sb.append(str);
 			}
-			question.setAnswer(sb.toString());
+			q.setAnswer(sb.toString());
+		}
+		// 设置状态
+		if (createAndActive) {
+			q.setStatus(Const.QUESTION_STATUS_SHOW);
+		} else {
+			q.setStatus(Const.QUESTION_STATUS_CLOSED);
 		}
 
-		questionService.addQuestion(question);
+		questionService.saveOrUpdate(q);
 		return COURSE_INDEX;
+	}
+
+	public String updateStatus() throws Exception {
+		if (questionId == null || status == null) {
+			errMsg = "问题ID或状态为空";
+		}
+
+		try {
+			Question question = questionService.findById(Integer
+					.parseInt(questionId));
+			question.setStatus(status);
+			questionService.update(question);
+		} catch (Exception e) {
+			logger.error("更新问题状态失败", e);
+			errMsg = e.getMessage();
+		}
+		return JSON;
+	}
+
+	public String find() {
+		if (questionId == null) {
+			errMsg = "问题ID为空";
+		}
+
+		try {
+			question = questionService.findById(Integer.parseInt(questionId));
+			ActionContext ac = ActionContext.getContext();
+			Map<String, Object> session = ac.getSession();
+			session.put(Const.SESSION_EDIT_QUESTION, question);
+		} catch (Exception e) {
+			logger.error("更新问题状态失败", e);
+			errMsg = e.getMessage();
+		}
+		return JSON;
 	}
 
 	public String getType() {
@@ -152,6 +208,30 @@ public class QuestionAction extends ActionSupport {
 
 	public void setCreateAndActive(boolean createAndActive) {
 		this.createAndActive = createAndActive;
+	}
+
+	public String getQuestionId() {
+		return questionId;
+	}
+
+	public void setQuestionId(String questionId) {
+		this.questionId = questionId;
+	}
+
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
+	public String getErrMsg() {
+		return errMsg;
+	}
+
+	public void setErrMsg(String errMsg) {
+		this.errMsg = errMsg;
 	}
 
 }

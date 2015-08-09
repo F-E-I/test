@@ -28,6 +28,14 @@ public class QuestionDaoImpl extends CommonDaoSupport implements QuestionDao {
 		this.save(question);
 	}
 
+	public void updateQuestion(Question question) {
+		this.update(question);
+	}
+
+	public void saveOrUpdateQuestion(Question question) {
+		this.saveOrUpdate(question);
+	}
+
 	@SuppressWarnings("unchecked")
 	public List<Question> findAll() {
 		String hql = " from com.fdzcxy.tms.manager.model.Question";
@@ -67,6 +75,16 @@ public class QuestionDaoImpl extends CommonDaoSupport implements QuestionDao {
 			return null;
 		}
 		return list;
+	}
+
+	@SuppressWarnings("unchecked")
+	public Question findById(int id) {
+		String hql = " from com.fdzcxy.tms.manager.model.Question q where q.id=?";
+		List<Question> list = this.find(hql, id);
+		if (list.size() <= 0) {
+			return null;
+		}
+		return list.get(0);
 	}
 
 }

@@ -195,8 +195,22 @@
 												        <em class="module-item"><s:property value="#question.title"/></em>
 												    </div>
 													<div class="action-container">
-														<div id='<s:property value="#question.id"/>' class="status actionmenu actionmenu-button">
+														<div id='<s:property value="#question.id"/>' type="<s:property value="#question.type"/>" class="status actionmenu actionmenu-button">
+															<s:if test="#question.status==0">
 															<span class="icon active-visible"></span>
+															</s:if>
+															<s:elseif test="#question.status==1">
+															<span class="icon visible"></span>
+															</s:elseif>
+															<s:elseif test="#question.status==2">
+															<span class="icon active"></span>
+															</s:elseif>
+															<s:elseif test="#question.status==3">
+															<span class="icon review"></span>
+															</s:elseif>
+															<s:elseif test="#question.status==4">
+															<span class="icon inactive"></span>
+															</s:elseif>
 														</div>
 													</div>
 												</div>
@@ -221,35 +235,35 @@
 							<div class="options">
 								<span class="close icon x"></span>
 								<div class="group">设置状态</div>
-								<div class="option active-visible" status="active-visible">
+								<div class="option active-visible" status="active-visible" value="0">
 									<span class="icon"></span>
 									<span class="title">
 										<b>问答</b>（可见且可提交）
 									</span>
 									<span class="desc">在线学生可见且可提交答案</span>
 								</div>
-								<div class="option visible" status="visible">
+								<div class="option visible" status="visible" value="1">
 									<span class="icon"></span>
 									<span class="title">
 										<b>显示</b>（可见）
 									</span>
 									<span class="desc">在线学生可见但不可提交答案</span>
 								</div>
-								<div class="option active" status="active">
+								<div class="option active" status="active" value="2">
 									<span class="icon"></span>
 									<span class="title">
 										<b>作业</b>（可提交）
 									</span>
 									<span class="desc">给学生发送家庭作业</span>
 								</div>
-								<div class="option review" status="review">
+								<div class="option review" status="review" value="3">
 									<span class="icon"></span>
 									<span class="title">
 										<b>复习</b>
 									</span>
 									<span class="desc">答案可见，学生可进行复习</span>
 								</div>
-								<div class="option inactive" status="inactive">
+								<div class="option inactive" status="inactive" value="4">
 									<span class="icon"></span>
 									<span class="title">
 										<b>关闭</b>
@@ -389,6 +403,7 @@
 			$('#question-control-panel .actionmenu-button').click(function(){
 				var top = $(this).offset().top;
 				$('.status-popover').attr('parent', $(this).attr('id'));
+				$('.status-popover').attr('type', $(this).attr('type'));
 				$('.status-popover').css({top:top-400});
 				$('.status-popover').show();
 			});
@@ -400,7 +415,41 @@
 					obj.removeAttr('class');
 					obj.addClass('icon '+status);
 					$(this).siblings('.close.icon.x').click();
+					
+					var statusValue = $(this).attr('value');
+					var url = "${ctx}/jsp/question!updateStatus";
+					var param = {questionId:id,status:statusValue};
+					$.post(url, param, function(data){
+						if(data.errMsg){
+							alert('更新问题状态失败, 错误信息：' + data.errMsg);
+						}else{
+							if(statusValue == '0'){
+								$('.course-content .panels #'+id).remove();
+							}						
+						}
+					});
 				}
+			});
+			$('.actionmenu-popup .group div.option.edit').click(function(){
+				var id = $(this).parents('.popover').attr('parent');
+            	var type = $(this).parents('.popover').attr('type');
+				$(this).parents('.status-popover').hide();
+				$.post("${ctx}/jsp/question!find", {questionId:id}, function(data){
+					if(data.errMsg){
+						alert('编辑问题失败, 错误信息：' + data.errMsg);
+					}else{
+						var url;
+		            	if(type == '0'){
+		            		url = 'question/singleSelect.jsp';
+		            	}else if(type == '1'){
+		            		url = 'question/multipleSelect.jsp';
+		            	}else if(type == '2'){
+		            		url = 'question/wordAnswer.jsp';
+		            	}
+		            	var q = data.question;
+		            	openPageDialog(url, '编辑题目', 600);
+					}
+				});
 			});
 		});
 	</script>

@@ -30,4 +30,10 @@ public interface QuestionService {
 	public List<Question> findByCourseCodeAndStatus(String courseCode,
 			String status);
 
+	public Question findById(int id);
+
+	public void update(Question question);
+
+	public void saveOrUpdate(Question question);
+
 }
