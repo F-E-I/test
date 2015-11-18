@@ -57,7 +57,7 @@ function openPageDialog(url, title, width, buttons){
         resizable:false,
         hide:"toggle",//关闭窗口的效果  
         modal:true, //遮罩效果默认是false不遮住  
-        //position:"center", //对话框弹出的位置，top,left,right,center,默认是center  
+        //position:['center','center'], //对话框弹出的位置，top,left,right,center,默认是center  
         //show:"slide",//打开窗口的效果  
         title:title//设置对话框的标题  
     });
